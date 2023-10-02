@@ -1,0 +1,1 @@
+El comando 'top' en Linux es una herramienta útil para monitorear la actividad del sistema en tiempo real. Proporciona una vista en tiempo real de los procesos que consumen recursos en tu sistema, como la CPU y la memoria.

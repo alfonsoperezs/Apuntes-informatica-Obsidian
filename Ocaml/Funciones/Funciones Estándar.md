@@ -1,0 +1,1 @@
+- Stdlib.abs : es una función que calcula el valor absoluto de un número. Devuelve el valor absoluto de un número, que es siempre positivo o cero.

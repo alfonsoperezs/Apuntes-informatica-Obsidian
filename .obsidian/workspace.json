@@ -1,0 +1,185 @@
+{
+  "main": {
+    "id": "49baa64df7f3a7c5",
+    "type": "split",
+    "children": [
+      {
+        "id": "abad4ed497478138",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "670584f55f4d6500",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ocaml/Funciones/Funciones Estándar.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3e43aaa549cd4201",
+    "type": "split",
+    "children": [
+      {
+        "id": "9f7cd791025983d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "610a6715a86aeff6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "db27c46691239533",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "98b87a38dc451e6b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "87a956ab923d5a49",
+    "type": "split",
+    "children": [
+      {
+        "id": "faf541b585aacabf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3883b2bd8e65526f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Ocaml/Funciones/Funciones Estándar.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8813a96b32c4a909",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Ocaml/Funciones/Funciones Estándar.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1a66b229e926fe9e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "872ae34aa18d93a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Ocaml/Funciones/Funciones Estándar.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "670584f55f4d6500",
+  "lastOpenFiles": [
+    "Ocaml/Funciones/Funciones Booleanas.md",
+    "Ocaml/Funciones/Conversión de tipos.md",
+    "Ocaml/Notas a tener en cuenta.md",
+    "Ocaml/Declaración de variables.md",
+    "Linux/Sistema de ficheros/Usuario real y Usuario efectivo.md",
+    "Linux/Sistema de ficheros/Tipos de ficheros.md",
+    "Linux/Sistema de ficheros/Sticky Bit (Bit Pegajoso).md",
+    "Linux/Sistema de ficheros/Permisos.md",
+    "Linux/Sistema de ficheros/Estructura del sistema de archivos.md",
+    "Administración de memoria/Formatear un USB Booteable.md",
+    "images/Captura de pantalla (15).png",
+    "Administración de memoria",
+    "Linux/Comandos/Comando locate.md",
+    "Linux/Comandos/Comando ps.md",
+    "Linux/Comandos/Comando top.md",
+    "Linux/Comandos/Comando chmod.md",
+    "Linux/Sistema de ficheros",
+    "Linux/Comandos/Comando df.md",
+    "images/Screenshot_20230925_162440.png",
+    "Ocaml/Funciones/Funciones Estándar.md",
+    "Ocaml/Funciones",
+    "Untitled.md",
+    "Git/Inicializar y Subir un Repositorio a Git.md",
+    "Ocaml",
+    "Git/Vincular cuenta Git en Git Bash.md",
+    "README.md",
+    "images/VirtualBox_Kubuntu_18_09_2023_09_52_11 (2).png",
+    "Sin título.md",
+    "Git",
+    "images",
+    "images/VirtualBox_Kubuntu_15_09_2023_16_00_46.png",
+    "Linux/Comandos",
+    "Linux"
+  ]
+}

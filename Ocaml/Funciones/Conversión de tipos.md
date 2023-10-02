@@ -1,0 +1,4 @@
+- char_of_int : es una función que toma un número entero como entrada y devuelve el carácter ASCII correspondiente.
+- int_of_char : es una función que toma un carácter como entrada y devuelve el número entero correspondiente utilizando la tabla ASCII.
+- float_of_int : convierte un valor entero en un valor de punto flotante.
+- Char.code: es una función que toma un carácter como entrada y devuelve el valor numérico correspondiente de su código ASCII.

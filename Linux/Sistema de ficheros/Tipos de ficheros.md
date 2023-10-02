@@ -1,0 +1,9 @@
+- **Ficheros Regulares (-)**: Contienen datos de usuario y pueden ser de texto o binarios.
+- **Ficheros Especiales:
+	- **Directorio (d)**: Contienen una lista de nombres de ficheros y otros directorios.
+	- **Ficheros de Dispositivos:
+		- **Ficheros de Dispositivos de Caracter (c)**: Representan dispositivos de caracteres, como teclados o impresoras.
+		- **Ficheros de Dispositivos de Bloque (b)**: Representan dispositivos de bloque, como discos duros o unidades USB.
+	- **Link Simbólico (l)**: Un tipo de fichero que actúa como un acceso directo a otro fichero o directorio.
+	- **Pipe (p)**: Permiten la comunicación entre procesos, se utilizan para pasar datos de un programa a otro.
+	- **Socket (s)**: Permiten la comunicación entre procesos a través de una red, se utilizan para la comunicación en red.
