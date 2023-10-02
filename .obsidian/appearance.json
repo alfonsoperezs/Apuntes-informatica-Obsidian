@@ -1,5 +1,7 @@
 {
   "accentColor": "",
   "baseFontSize": 15,
-  "cssTheme": "Obsidianite"
+  "cssTheme": "Obsidianite",
+  "textFontFamily": "",
+  "interfaceFontFamily": "Mononoki Nerd Font"
 }

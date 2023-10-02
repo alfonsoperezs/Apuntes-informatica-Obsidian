@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Sistema de ficheros/Usuario real y Usuario efectivo.md",
+                "file": " Git/Vincular cuenta Git en Git Bash.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "87a956ab923d5a49",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Sistema de ficheros/Usuario real y Usuario efectivo.md",
+                "file": " Git/Vincular cuenta Git en Git Bash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Sistema de ficheros/Usuario real y Usuario efectivo.md",
+                "file": " Git/Vincular cuenta Git en Git Bash.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Sistema de ficheros/Usuario real y Usuario efectivo.md"
+                "file": " Git/Vincular cuenta Git en Git Bash.md"
               }
             }
           }
@@ -149,43 +148,45 @@
   },
   "active": "670584f55f4d6500",
   "lastOpenFiles": [
-    "Linux/Sistema de ficheros/Permisos.md",
-    "Linux/Sistema de ficheros/Sistema de ficheros.md",
-    "Linux/Sistema de ficheros/Usuario real y Usuario efectivo.md",
-    "Linux/Sistema de ficheros/Tipos de ficheros.md",
-    "Linux/Sistema de ficheros/Sticky Bit (Bit Pegajoso).md",
+    " Linux/Comandos/Comando fsck.md",
+    " Linux/Comandos/Comando chmod.md",
+    " Git/Vincular cuenta Git en Git Bash.md",
+    " Git/Inicializar y Subir un Repositorio a Git.md",
+    " Linux/Personalización/Instalar fuentes de letras.md",
+    " Linux/Sistema de ficheros/Usuario real y Usuario efectivo.md",
+    " Linux/Personalización",
+    " Linux/Sistema de ficheros/Permisos.md",
+    " Linux/Sistema de ficheros/Sistema de ficheros.md",
+    " Linux/Sistema de ficheros/Tipos de ficheros.md",
+    " Linux/Sistema de ficheros/Sticky Bit (Bit Pegajoso).md",
     "README.md",
-    "Linux/Comandos/Comando fsck.md",
-    "Linux/Sistema de ficheros/Estructura del sistema de ficheros.md",
-    "Linux/Comandos/Comando chmod.md",
-    "Linux/Comandos/Comando ps.md",
-    "Linux/Comandos/Comando locate.md",
-    "Linux/Comandos/Comando df.md",
-    "Linux/Comandos/Comando top.md",
-    "Git/Comandos/Comando pull.md",
+    " Linux/Sistema de ficheros/Estructura del sistema de ficheros.md",
+    " Linux/Comandos/Comando ps.md",
+    " Linux/Comandos/Comando locate.md",
+    " Linux/Comandos/Comando df.md",
+    " Linux/Comandos/Comando top.md",
+    " Git/Comandos/Comando pull.md",
     "images/Screenshot_20231002_160425.png",
-    "Ocaml/Funciones/Funciones Estándar.md",
-    "Git/Comandos",
-    "Ocaml/Funciones/Funciones Booleanas.md",
-    "Ocaml/Funciones/Conversión de tipos.md",
-    "Ocaml/Notas a tener en cuenta.md",
-    "Ocaml/Declaración de variables.md",
-    "Administración de memoria/Formatear un USB Booteable.md",
+    " Ocaml/Funciones/Funciones Estándar.md",
+    " Git/Comandos",
+    " Ocaml/Funciones/Funciones Booleanas.md",
+    " Ocaml/Funciones/Conversión de tipos.md",
+    " Ocaml/Notas a tener en cuenta.md",
+    " Ocaml/Declaración de variables.md",
+    "󰨣 Administración de memoria/Formatear un USB Booteable.md",
     "images/Captura de pantalla (15).png",
-    "Administración de memoria",
-    "Linux/Sistema de ficheros",
+    "󰨣 Administración de memoria",
+    " Linux/Sistema de ficheros",
     "images/Screenshot_20230925_162440.png",
-    "Ocaml/Funciones",
+    " Ocaml/Funciones",
     "Untitled.md",
-    "Git/Inicializar y Subir un Repositorio a Git.md",
-    "Ocaml",
-    "Git/Vincular cuenta Git en Git Bash.md",
+    " Ocaml",
     "images/VirtualBox_Kubuntu_18_09_2023_09_52_11 (2).png",
     "Sin título.md",
-    "Git",
+    " Git",
     "images",
     "images/VirtualBox_Kubuntu_15_09_2023_16_00_46.png",
-    "Linux/Comandos",
-    "Linux"
+    " Linux/Comandos",
+    " Linux"
   ]
 }
