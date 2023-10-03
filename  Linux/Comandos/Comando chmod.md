@@ -2,4 +2,6 @@ El comando `chmod` es una utilidad de la línea de comandos en sistemas Unix y L
 
 Sintaxis: chmod [opciones] permisos archivo/directorio
 
-Los [[Permisos]] se representan mediante tres dígitos en notación octal, donde el primer dígito corresponde al propietario, el segundo al grupo y el tercero a otros usuarios.
+Los permisos [¹] se representan mediante tres dígitos en notación octal, donde el primer dígito corresponde al propietario, el segundo al grupo y el tercero a otros usuarios.
+
+[¹] [[Permisos]]
