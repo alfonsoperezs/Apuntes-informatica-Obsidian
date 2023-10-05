@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "abad4ed497478138",
+        "id": "8e7b5ddacfec31a8",
         "type": "tabs",
         "children": [
           {
-            "id": "670584f55f4d6500",
+            "id": "7cc320e865884313",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": " Linux/Comandos/Comando grep.md",
+                "file": " Linux/Herramientas/Xosview.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": " Linux/Comandos/Comando grep.md",
+                "file": " Linux/Herramientas/Xosview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": " Linux/Comandos/Comando grep.md",
+                "file": " Linux/Herramientas/Xosview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": " Linux/Comandos/Comando grep.md"
+                "file": " Linux/Herramientas/Xosview.md"
               }
             }
           }
@@ -146,15 +146,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "670584f55f4d6500",
+  "active": "610a6715a86aeff6",
   "lastOpenFiles": [
+    "images/Screenshot_20231005_110819.png",
+    " Linux/Sistema de ficheros/Permisos.md",
+    " Linux/Herramientas/Xosview.md",
+    " Linux/Herramientas",
+    " Linux/Sistema de ficheros/Estructura del sistema de ficheros.md",
+    " Linux/Comandos/Comando pmap.md",
+    "images/Screenshot_20231005_111706.png",
+    " Linux/Comandos/Comando ldd.md",
+    "images/Screenshot_20231005_112041.png",
+    " Linux/Comandos/Comando grep.md",
+    " Linux/Comandos/Comando fsck.md",
     " Linux/Comandos/Comando locate.md",
     " Linux/Comandos/Comando ps.md",
-    " Linux/Comandos/Comando grep.md",
     " Linux/Comandos/Comando top.md",
-    " Linux/Comandos/Comando fsck.md",
     " Linux/Sistema de ficheros/Sistema de ficheros.md",
-    " Linux/Sistema de ficheros/Permisos.md",
     " Linux/Comandos/Comando chmod.md",
     " Linux/Comandos/Comando df.md",
     " Linux/Comandos/Tuberías.md",
@@ -173,14 +181,10 @@
     " Linux/Sistema de ficheros/Tipos de ficheros.md",
     " Linux/Sistema de ficheros/Sticky Bit (Bit Pegajoso).md",
     "README.md",
-    " Linux/Sistema de ficheros/Estructura del sistema de ficheros.md",
     "images/Screenshot_20231002_160425.png",
     " Ocaml/Funciones/Funciones Estándar.md",
     " Git/Comandos",
     " Ocaml/Funciones/Funciones Booleanas.md",
-    " Ocaml/Funciones/Conversión de tipos.md",
-    " Ocaml/Notas a tener en cuenta.md",
-    " Ocaml/Declaración de variables.md",
     "󰨣 Administración de memoria",
     " Linux/Sistema de ficheros",
     "images/Screenshot_20230925_162440.png",
@@ -189,8 +193,6 @@
     "images/VirtualBox_Kubuntu_18_09_2023_09_52_11 (2).png",
     " Git",
     "images",
-    "images/VirtualBox_Kubuntu_15_09_2023_16_00_46.png",
-    " Linux/Comandos",
-    " Linux"
+    " Linux/Comandos"
   ]
 }
