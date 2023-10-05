@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": " Linux/Herramientas/Xosview.md",
+                "file": " Git/Inicializar y Subir un Repositorio a Git.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": " Linux/Herramientas/Xosview.md",
+                "file": " Git/Inicializar y Subir un Repositorio a Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": " Linux/Herramientas/Xosview.md",
+                "file": " Git/Inicializar y Subir un Repositorio a Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": " Linux/Herramientas/Xosview.md"
+                "file": " Git/Inicializar y Subir un Repositorio a Git.md"
               }
             }
           }
@@ -148,12 +148,20 @@
   },
   "active": "610a6715a86aeff6",
   "lastOpenFiles": [
+    "󰘚 Hardware",
+    " Git/Vincular cuenta Git en Git Bash.md",
+    " Git/Inicializar y Subir un Repositorio a Git.md",
+    " Linux/Herramientas/Xosview.md",
+    " Linux/Comandos/Comando top.md",
+    " Linux/Comandos/Comando pmap.md",
+    " Ocaml/Funciones/Conversión de tipos.md",
+    " Java",
+    " Ocaml/Funciones/Funciones Booleanas.md",
+    " Ocaml/Funciones/Funciones Estándar.md",
     "images/Screenshot_20231005_110819.png",
     " Linux/Sistema de ficheros/Permisos.md",
-    " Linux/Herramientas/Xosview.md",
     " Linux/Herramientas",
     " Linux/Sistema de ficheros/Estructura del sistema de ficheros.md",
-    " Linux/Comandos/Comando pmap.md",
     "images/Screenshot_20231005_111706.png",
     " Linux/Comandos/Comando ldd.md",
     "images/Screenshot_20231005_112041.png",
@@ -161,11 +169,10 @@
     " Linux/Comandos/Comando fsck.md",
     " Linux/Comandos/Comando locate.md",
     " Linux/Comandos/Comando ps.md",
-    " Linux/Comandos/Comando top.md",
     " Linux/Sistema de ficheros/Sistema de ficheros.md",
     " Linux/Comandos/Comando chmod.md",
     " Linux/Comandos/Comando df.md",
-    " Linux/Comandos/Tuberías.md",
+    " Linux/Tuberías.md",
     "images/grep 2.png",
     "images/Captura de pantalla (15).png",
     "images/Screenshot_20231003_163709.png",
@@ -173,26 +180,19 @@
     "images/grep 1.png",
     "󰨣 Administración de memoria/Formatear un USB Booteable.md",
     " Git/Comandos/Comando pull.md",
-    " Git/Vincular cuenta Git en Git Bash.md",
-    " Git/Inicializar y Subir un Repositorio a Git.md",
     " Linux/Personalización/Instalar fuentes de letras.md",
     " Linux/Sistema de ficheros/Usuario real y Usuario efectivo.md",
     " Linux/Personalización",
     " Linux/Sistema de ficheros/Tipos de ficheros.md",
     " Linux/Sistema de ficheros/Sticky Bit (Bit Pegajoso).md",
-    "README.md",
     "images/Screenshot_20231002_160425.png",
-    " Ocaml/Funciones/Funciones Estándar.md",
     " Git/Comandos",
-    " Ocaml/Funciones/Funciones Booleanas.md",
     "󰨣 Administración de memoria",
     " Linux/Sistema de ficheros",
     "images/Screenshot_20230925_162440.png",
     " Ocaml/Funciones",
     " Ocaml",
-    "images/VirtualBox_Kubuntu_18_09_2023_09_52_11 (2).png",
     " Git",
-    "images",
-    " Linux/Comandos"
+    "images"
   ]
 }
