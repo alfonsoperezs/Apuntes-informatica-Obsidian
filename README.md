@@ -8,6 +8,7 @@ Para poder visualizar los apuntes, debéis descargaros una aplicación que admit
 Particularmente, recomiendo Obsidian.
 
 - VERSIÓN 0.1
+    - Java
     - Git
     - Linux (comandos y sistema de archivos)
     - Ocaml
