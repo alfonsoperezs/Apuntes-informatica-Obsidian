@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": " Git/Inicializar y Subir un Repositorio a Git.md",
+                "file": " Ocaml/Funciones/Funciones Estándar.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": " Git/Inicializar y Subir un Repositorio a Git.md",
+                "file": " Ocaml/Funciones/Funciones Estándar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": " Git/Inicializar y Subir un Repositorio a Git.md",
+                "file": " Ocaml/Funciones/Funciones Estándar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": " Git/Inicializar y Subir un Repositorio a Git.md"
+                "file": " Ocaml/Funciones/Funciones Estándar.md"
               }
             }
           }
@@ -138,25 +138,40 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo canvas": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
     }
   },
   "active": "610a6715a86aeff6",
   "lastOpenFiles": [
+    " Ocaml/Funciones/Funciones Booleanas.md",
+    " Ocaml/Funciones/Conversión de tipos.md",
+    " Java/Palabras reservadas/new.md",
+    " Java/Clases y objetos/Tipos de métodos.md",
+    " Java/Palabras reservadas/return.md",
+    " Java/Clases y objetos/Declaración de atributos.md",
+    " Java/Clases y objetos/Declaración de métodos.md",
+    " Java/Palabras reservadas/throws.md",
+    " Java/Clases y objetos/Concepto de clases y objetos.md",
+    " Java/Clases y objetos/Declaración de clases.md",
+    " Java/Clases y objetos",
+    "1.md",
+    " Linux/Comandos/Comando pmap.md",
+    "󰨣 Administración de memoria/Formatear un USB Booteable.md",
+    " Java/Palabras reservadas/this.md",
+    "images/this.png",
+    " Java/Palabras reservadas",
+    " Git/Inicializar y Subir un Repositorio a Git.md",
+    " Java",
     "󰘚 Hardware",
     " Git/Vincular cuenta Git en Git Bash.md",
-    " Git/Inicializar y Subir un Repositorio a Git.md",
     " Linux/Herramientas/Xosview.md",
     " Linux/Comandos/Comando top.md",
-    " Linux/Comandos/Comando pmap.md",
-    " Ocaml/Funciones/Conversión de tipos.md",
     " Java",
-    " Ocaml/Funciones/Funciones Booleanas.md",
     " Ocaml/Funciones/Funciones Estándar.md",
     "images/Screenshot_20231005_110819.png",
     " Linux/Sistema de ficheros/Permisos.md",
@@ -169,30 +184,15 @@
     " Linux/Comandos/Comando fsck.md",
     " Linux/Comandos/Comando locate.md",
     " Linux/Comandos/Comando ps.md",
-    " Linux/Sistema de ficheros/Sistema de ficheros.md",
-    " Linux/Comandos/Comando chmod.md",
-    " Linux/Comandos/Comando df.md",
-    " Linux/Tuberías.md",
     "images/grep 2.png",
     "images/Captura de pantalla (15).png",
     "images/Screenshot_20231003_163709.png",
     "images/Screenshot_20231003_163632.png",
     "images/grep 1.png",
-    "󰨣 Administración de memoria/Formatear un USB Booteable.md",
-    " Git/Comandos/Comando pull.md",
-    " Linux/Personalización/Instalar fuentes de letras.md",
-    " Linux/Sistema de ficheros/Usuario real y Usuario efectivo.md",
     " Linux/Personalización",
-    " Linux/Sistema de ficheros/Tipos de ficheros.md",
-    " Linux/Sistema de ficheros/Sticky Bit (Bit Pegajoso).md",
     "images/Screenshot_20231002_160425.png",
     " Git/Comandos",
     "󰨣 Administración de memoria",
-    " Linux/Sistema de ficheros",
-    "images/Screenshot_20230925_162440.png",
-    " Ocaml/Funciones",
-    " Ocaml",
-    " Git",
-    "images"
+    " Linux/Sistema de ficheros"
   ]
 }
