@@ -1,7 +1,7 @@
 El comando `git status` es utilizado para mostrar el estado actual de tu repositorio de Git.
 
 ## Ejemplo de uso
-
+	
 Vamos suponer el directorio `hellogit` donde se acaba de inicializar el repositorio. Dicho directorio contiene un archivo de texto llamado `archivo1.txt`. Al ejecutar el comando `git status` podemos observar:
 
 ![[Screenshot_20231022_002032.png]]

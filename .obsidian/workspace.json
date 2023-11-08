@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8e7b5ddacfec31a8",
+        "id": "bcb03ad1cbbfbe9c",
         "type": "tabs",
         "children": [
           {
-            "id": "9aa4a1f1632691d6",
+            "id": "610e9f2ed6416111",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "󰨣 USB/Formatear un USB Booteable.md",
+                "file": "󱁊 Algoritmos/Ordenación/Ordenación rápida (Quicksort).md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 202.5
+    "width": 272.5
   },
   "right": {
     "id": "87a956ab923d5a49",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "󰨣 USB/Formatear un USB Booteable.md",
+                "file": "󱁊 Algoritmos/Ordenación/Ordenación rápida (Quicksort).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "󰨣 USB/Formatear un USB Booteable.md",
+                "file": "󱁊 Algoritmos/Ordenación/Ordenación rápida (Quicksort).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "󰨣 USB/Formatear un USB Booteable.md"
+                "file": "󱁊 Algoritmos/Ordenación/Ordenación rápida (Quicksort).md"
               }
             }
           }
@@ -146,52 +146,52 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "610a6715a86aeff6",
+  "active": "610e9f2ed6416111",
   "lastOpenFiles": [
-    " Git/Comandos/Git pull.md",
+    "󱁊 Algoritmos/Ordenación/Ordenación por Selección.md",
+    "README.md",
+    "󱁊 Algoritmos/Ordenación/Ordenación rápida (Quicksort).md",
+    "images/Screenshot_20231108_163644.png",
+    "images/Screenshot_20231108_163625.png",
+    "images/Screenshot_20231108_163559.png",
+    "images/Screenshot_20231108_163548.png",
+    "images/Screenshot_20231108_163411.png",
+    "images/Screenshot_20231108_163115.png",
+    "images/Screenshot_20231108_163003.png",
+    "images/Screenshot_20231108_162744.png",
+    "images/Screenshot_20231108_162551.png",
+    "images/Screenshot_20231108_161412.png",
+    "󱁊 Algoritmos/Ordenación/Ordenación por Inserción.md",
+    " Linux/Comandos/Comando ldd.md",
+    " Linux/Comandos/Comando df.md",
+    " Linux/Sistema de ficheros/Sticky Bit (Bit Pegajoso).md",
+    " Linux/Sistema de ficheros/Sistema de ficheros.md",
+    " Linux/Sistema de ficheros/Permisos.md",
+    " Linux/Sistema de ficheros/Estructura del sistema de ficheros.md",
+    "󱁊 Algoritmos/Ordenación/Ordenación por Fusión (MergeSort).md",
+    "󱁊 Algoritmos/Ordenación/Ordenación Shell.md",
+    "󱁊 Algoritmos/Búsqueda/Búsqueda Binaria.md",
+    "carbon.png.md",
+    " Linux/Comandos/Comando chmod.md",
+    "󱁊 Algoritmos/Th. Divide Y Vencerás",
+    "󱁊 Algoritmos/Montículos",
+    "󱁊 Algoritmos/Búsqueda",
+    "󱁊 Algoritmos/Ordenación",
+    "󱁊 Algoritmos/Untitled.md",
+    " Git/Comandos/Git add.md",
+    "󱁊 Algoritmos",
+    " Java/Palabras reservadas/new.md",
+    " Java/Palabras reservadas/return.md",
     " Git/Inicializar y Subir un Repositorio a Git.md",
     " Git/Comandos/Git status.md",
-    " Git/Comandos/Git add.md",
+    " Git/Comandos/Git pull.md",
     " Git/Comandos/Git commit.md",
-    " Git/Comandos/Git init.md",
-    "images/Screenshot_20231022_005221.png",
-    "images/add_status.png",
-    "add_status.png",
-    "images/Screenshot_20231022_002032.png",
-    " Linux/Comandos/Comando grep.md",
-    " Linux/Comandos/Comando chmod.md",
-    " Linux/Comandos/Comando ldd.md",
-    " Linux/Comandos/Comando pmap.md",
-    "images/gitinit3.png",
-    "images/gitinit2.png",
-    "images/gitini1.png",
-    " Ocaml/Funciones/Funciones Estándar.md",
     " Ocaml/Funciones/Conversión de tipos.md",
-    " Java/Palabras reservadas/this.md",
-    " Java/Palabras reservadas/new.md",
-    " Java/Palabras reservadas/throws.md",
-    " Linux/Comandos/Comando ps.md",
-    " Ocaml/Funciones/Funciones Booleanas.md",
-    " Java/Clases y objetos/Tipos de métodos.md",
-    " Java/Palabras reservadas/return.md",
-    " Java/Clases y objetos/Declaración de atributos.md",
-    " Java/Clases y objetos/Declaración de métodos.md",
-    " Java/Clases y objetos/Concepto de clases y objetos.md",
-    " Java/Clases y objetos/Declaración de clases.md",
+    " Linux/Tuberías.md",
     " Java/Clases y objetos",
-    "1.md",
-    "󰨣 USB/Formatear un USB Booteable.md",
-    "images/this.png",
     " Java/Palabras reservadas",
     " Java",
     "󰘚 Hardware",
-    " Java",
-    "images/Screenshot_20231005_110819.png",
-    " Linux/Herramientas",
-    "images/Screenshot_20231005_111706.png",
-    " Linux/Personalización",
-    " Git/Comandos",
-    "󰨣 USB",
-    " Linux/Sistema de ficheros"
+    " Java"
   ]
 }
