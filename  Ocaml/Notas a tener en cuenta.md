@@ -1,1 +1,0 @@
-- Redefinición de valores : Se puede redefinir un valor previamente definido, pero la definición anterior no se pierde. Solo tienes acceso a la última definición. Esto es útil para modificar o actualizar variables y funciones existentes.

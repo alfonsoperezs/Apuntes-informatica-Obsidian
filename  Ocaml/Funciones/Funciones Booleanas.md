@@ -1,1 +1,0 @@
-- not : es una función booleana que devuelve el valor opuesto de la expresión booleana que se le pasa como argumento.

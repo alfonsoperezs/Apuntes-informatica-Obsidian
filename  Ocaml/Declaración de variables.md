@@ -1,2 +1,0 @@
-- Para declarar variables globales, se utiliza "let". Las variables globales tienen un alcance en todo el programa y pueden ser accedidas desde cualquier parte del código.
-- Para declarar variables locales, se utiliza "let ... in". Las variables locales solo son visibles dentro de un bloque de código específico y no pueden ser accedidas desde fuera de ese bloque.
