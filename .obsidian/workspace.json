@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": " Java/Clases y objetos/Declaración de clases.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": " Java/Clases y objetos/Declaración de clases.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": " Java/Clases y objetos/Declaración de clases.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": " Java/Clases y objetos/Declaración de clases.md"
+                "file": "README.md"
               }
             }
           }
@@ -146,8 +146,12 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "b04c8af0c8e68da9",
+  "active": "610a6715a86aeff6",
   "lastOpenFiles": [
+    " Bases de Datos/SQL",
+    " Java/Clases y objetos/Declaración de clases.md",
+    "Sin título",
+    " Bases de Datos",
     " Java/Clases y objetos/Declaración de atributos.md",
     " Java/Clases y objetos/Concepto de clases y objetos.md",
     " Linux/Sistema de ficheros/Estructura del sistema de ficheros.md",
@@ -182,17 +186,13 @@
     "󱁊 Algoritmos/Ordenación/Ordenación por Fusión (MergeSort).md",
     "󱁊 Algoritmos/Ordenación/Ordenación Shell.md",
     "carbon.png.md",
-    " Linux/Comandos/Comando chmod.md",
     "󱁊 Algoritmos/Th. Divide Y Vencerás",
     "󱁊 Algoritmos/Montículos",
     "󱁊 Algoritmos/Búsqueda",
     "󱁊 Algoritmos/Ordenación",
-    "󱁊 Algoritmos/Untitled.md",
     "󱁊 Algoritmos",
     " Java/Clases y objetos",
     " Java/Palabras reservadas",
-    " Java",
-    "󰘚 Hardware",
-    " Java"
+    " Java"
   ]
 }

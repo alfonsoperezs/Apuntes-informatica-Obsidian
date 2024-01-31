@@ -10,8 +10,5 @@ Para poder visualizar los apuntes, debéis descargaros una aplicación que admit
     - Java
     - Git
     - Linux (comandos y sistema de archivos)
-    - Ocaml
-    - Administración de memoria (Formatear pendrive booteable)
-- Versión 0.2
-	- Algoritmos
-		- Algoritmos de búsqueda y ordenación
+    - Algoritmos de búsqueda y ordenación
+    - Particiones USB
