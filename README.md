@@ -6,9 +6,3 @@ que estoy migrando poco a poco los apuntes a esta carpeta)
 
 Para poder visualizar los apuntes, debéis descargaros una aplicación que admita archivos formato Markdown (como por ejemplo, Obsidian)
 
-- VERSIÓN 0.1
-    - Java
-    - Git
-    - Linux (comandos y sistema de archivos)
-    - Algoritmos de búsqueda y ordenación
-    - Particiones USB
