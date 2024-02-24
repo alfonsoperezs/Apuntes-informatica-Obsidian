@@ -11,11 +11,9 @@
             "id": "32b4441622c3418d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
+                "file": "images/Screenshot_20231005_112041.png"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "images/Screenshot_20231005_112041.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "images/Screenshot_20231005_112041.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "images/Screenshot_20231005_112041.png"
               }
             }
           }
@@ -148,6 +146,12 @@
   },
   "active": "32b4441622c3418d",
   "lastOpenFiles": [
+    "images/Screenshot_20231108_155349.png",
+    "images/Screenshot_20231005_112041.png",
+    "images/Screenshot_20231108_155400.png",
+    "images/Screenshot_20231003_163709.png",
+    "images/Captura de pantalla (15).png",
+    "README.md",
     " Linux/Concurrencia/Barbero durmiente.md",
     " Linux/Concurrencia/Filósofos cenando.md",
     " Linux/Concurrencia/Inanición.md",
@@ -164,17 +168,12 @@
     "images/Screenshot_20231108_094655.png",
     "images/Screenshot_20231108_094546.png",
     "images/Screenshot_20231005_111706.png",
-    "images/Screenshot_20231003_163709.png",
     "images/Screenshot_20231003_163632.png",
-    "images/Screenshot_20231002_160425.png",
-    "images/Screenshot_20230925_162440.png",
-    "images/grep 1.png",
     " Linux/Concurrencia/Exclusión mútua.md",
     " Windows/Formatear un USB Booteable.md",
     " Git/Comandos/Git add.md",
     " Linux/Sistema de ficheros/Usuario real y Usuario efectivo.md",
     " Linux/Sistema de ficheros/Tipos de ficheros.md",
-    "README.md",
     "󱁊 Algoritmos/Ordenación/Ordenación Shell.md",
     "󱁊 Algoritmos/Ordenación/Ordenación rápida (Quicksort).md",
     "󱁊 Algoritmos/Ordenación/Ordenación por Selección.md",
