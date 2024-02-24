@@ -1,4 +1,4 @@
-La sección crítica es la parte de código que accede a un recurso compartido con otro `proceso/thread`.
+La sección crítica es la parte de código que accede a un recurso compartido con otro proceso/thread.
 
 ## EJEMPLO:
 

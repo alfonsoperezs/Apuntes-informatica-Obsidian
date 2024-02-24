@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": " Linux/Concurrencia/Filósofos cenando.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": " Linux/Concurrencia/Filósofos cenando.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": " Linux/Concurrencia/Filósofos cenando.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": " Linux/Concurrencia/Filósofos cenando.md"
+                "file": "README.md"
               }
             }
           }
@@ -148,6 +148,18 @@
   },
   "active": "32b4441622c3418d",
   "lastOpenFiles": [
+    " Linux/Concurrencia/Barbero durmiente.md",
+    " Linux/Concurrencia/Filósofos cenando.md",
+    " Linux/Concurrencia/Inanición.md",
+    " Linux/Concurrencia/Interbloqueo.md",
+    " Linux/Concurrencia/Mútex.md",
+    " Linux/Concurrencia/Sección crítica.md",
+    " Linux/Concurrencia/Semáforos.md",
+    "images/Captura de pantalla (78).png",
+    " Linux/Tuberías.md",
+    " Linux/Sistema de ficheros/Estructura del sistema de ficheros.md",
+    " Linux/Sistema de ficheros/Permisos.md",
+    " Linux/Sistema de ficheros/Sistema de ficheros.md",
     "images/Screenshot_20231108_155321.png",
     "images/Screenshot_20231108_094655.png",
     "images/Screenshot_20231108_094546.png",
@@ -157,23 +169,11 @@
     "images/Screenshot_20231002_160425.png",
     "images/Screenshot_20230925_162440.png",
     "images/grep 1.png",
-    "images/qs2.png",
-    "images/qs1.png",
-    " Linux/Concurrencia/Filósofos cenando.md",
     " Linux/Concurrencia/Exclusión mútua.md",
     " Windows/Formatear un USB Booteable.md",
     " Git/Comandos/Git add.md",
-    " Linux/Concurrencia/Interbloqueo.md",
-    " Linux/Concurrencia/Inanición.md",
-    " Linux/Concurrencia/Mútex.md",
-    " Linux/Concurrencia/Sección crítica.md",
-    " Linux/Concurrencia/Semáforos.md",
-    " Linux/Tuberías.md",
     " Linux/Sistema de ficheros/Usuario real y Usuario efectivo.md",
     " Linux/Sistema de ficheros/Tipos de ficheros.md",
-    " Linux/Sistema de ficheros/Sistema de ficheros.md",
-    " Linux/Sistema de ficheros/Permisos.md",
-    " Linux/Sistema de ficheros/Estructura del sistema de ficheros.md",
     "README.md",
     "󱁊 Algoritmos/Ordenación/Ordenación Shell.md",
     "󱁊 Algoritmos/Ordenación/Ordenación rápida (Quicksort).md",
@@ -184,7 +184,6 @@
     " Linux/Concurrencia",
     "󱁊 Algoritmos/Búsqueda/Búsqueda Binaria.md",
     " Java/Clases y objetos/Tipos de métodos.md",
-    " Java/Clases y objetos/Declaración de métodos.md",
     " Bases de Datos/SQL",
     "Sin título",
     " Bases de Datos",
