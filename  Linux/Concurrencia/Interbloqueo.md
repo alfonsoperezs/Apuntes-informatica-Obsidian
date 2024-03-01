@@ -4,7 +4,7 @@ Interbloqueo es una situación en que dos o más procesos están esperando por r
 
 Suponemos a un thread que ejecuta el siguiente código:
 
-```
+```c
 int protected_add(int *v1 (=valor1), mutex *m1(=m_valor1),
 int *v2(=valor2), mutex *m2 (=m_valor2)) {
 	int x;
@@ -19,7 +19,7 @@ int *v2(=valor2), mutex *m2 (=m_valor2)) {
 
 Por otro lado otro thread ejecuta la misma función pero con el orden de las variables cambiado:
 
-```
+```c
 int protected_add(int *v1 (=valor2), mutex *m1(=m_valor2),
 int *v2(=valor1), mutex *m2 (=m_valor1)){
 	int x;
@@ -45,7 +45,7 @@ El thread 1 bloquea m_valor1, y thread 2 bloquea m_valor2. Como ambos threads es
 
 1. Evitar hold and wait haciendo que los procesos reserven todos los recursos necesarios de una vez en vez de mantener reservados unos mientras esperan.
 
-```
+```c
 int protected_add(int *v1, mutex *m1, int *v2, mutex *m2) {
 	int x;
 	while(1) {
@@ -65,7 +65,7 @@ int protected_add(int *v1, mutex *m1, int *v2, mutex *m2) {
 
 2. La espera circular se puede evitar con una reserva ordenada de recursos.
 
-```
+```c
 int protected_add(int *v1, mutex *m1, int ordenv1, int *v2, mutex *m2, int ordenv2){
 	int x;
 	if(ordenv1 < ordenv2) {

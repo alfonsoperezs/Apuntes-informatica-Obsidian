@@ -2,7 +2,7 @@ La sección crítica es la parte de código que accede a un recurso compartido c
 
 ## EJEMPLO:
 
-```
+```c
 int i=0; // Variable global, compartida entre threads 
 
 void *incrementar(void *arg) { 

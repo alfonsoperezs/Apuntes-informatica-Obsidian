@@ -6,7 +6,7 @@ El problema de los filósofos cenando es un clásico en la teoría de la concurr
 
 Un mutex por tenedor (comen de uno en uno)
 
-```
+```c
 #define N 
 #define LFORK(I) (((I) + 1) % N)
 #define RFORK(I) (I)
@@ -54,7 +54,7 @@ void put_down(int i){
 
 Un mutex por tenedor, pero solucionando el interbloqueo, ya que se evita el Hold & Wait (comen varios)
 
-```
+```c
 #define N 
 #define LFORK(I) (((I) + 1) % N)
 #define RFORK(I) (I)

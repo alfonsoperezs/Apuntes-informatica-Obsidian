@@ -2,7 +2,7 @@ Un proceso puede estar esperando acceso a un recurso compartido sin conseguirlo.
 
 ## EJEMPLO
 
-```
+```c
 mutex *m1, *m2, *m3; int v1, v2, v3;
 
 void *bloqueo_mucho(void *arg) {

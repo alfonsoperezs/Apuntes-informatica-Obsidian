@@ -8,12 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "32b4441622c3418d",
+            "id": "966898fde6ef1f0c",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "images/Screenshot_20231005_112041.png"
+                "file": " Bases de Datos/SQL/JOIN.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "images/Screenshot_20231005_112041.png",
+                "file": " Bases de Datos/SQL/JOIN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "images/Screenshot_20231005_112041.png",
+                "file": " Bases de Datos/SQL/JOIN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "images/Screenshot_20231005_112041.png"
+                "file": " Bases de Datos/SQL/JOIN.md"
               }
             }
           }
@@ -136,61 +138,61 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "canvas:Crear nuevo lienzo": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo canvas": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "32b4441622c3418d",
+  "active": "966898fde6ef1f0c",
   "lastOpenFiles": [
-    "images/Screenshot_20231108_155349.png",
+    " Bases de Datos/SQL/ORDER BY.md",
+    " Bases de Datos/SQL/SELECT.md",
+    " Bases de Datos/SQL/JOIN.md",
+    " Bases de Datos/SQL/HAVING.md",
+    "Pasted image 20240301133721.png",
+    " Linux/Personalización/Instalar fuentes de letras.md",
+    " Bases de Datos/SQL/JOIN",
+    " Linux/Herramientas/Xosview.md",
+    " Linux/Tuberías.md",
+    " Linux/Sistema de ficheros/Usuario real y Usuario efectivo.md",
+    " Linux/Sistema de ficheros/Tipos de ficheros.md",
+    " Linux/Sistema de ficheros/Sticky Bit (Bit Pegajoso).md",
+    " Linux/Sistema de ficheros/Sistema de ficheros.md",
+    " Linux/Sistema de ficheros/Permisos.md",
+    " Linux/Sistema de ficheros/Estructura del sistema de ficheros.md",
+    " Bases de Datos/SQL/Funciones/SUM.md",
+    " Bases de Datos/SQL/Funciones/COUNT.md",
+    " Bases de Datos/SQL/Funciones/COALESCE.md",
+    " Bases de Datos/SQL/GROUP BY.md",
+    " Bases de Datos/SQL/FROM.md",
+    " Bases de Datos/SQL/DISTINCT.md",
+    " Bases de Datos/SQL/Predicados/Predicados elementales.md",
+    " Bases de Datos/SQL/Predicados/Predicados de nulos.md",
+    " Bases de Datos/SQL/Predicados/BETWEEN.md",
+    " Linux/Concurrencia/Compartición nula.md",
+    " Linux/Concurrencia/Exclusión mútua.md",
+    " Linux/Concurrencia/Filósofos cenando.md",
+    "Sin título.canvas",
+    " Bases de Datos/SQL/Funciones",
+    " Bases de Datos/SQL/Predicados",
     "images/Screenshot_20231005_112041.png",
+    "images/Screenshot_20231108_155349.png",
     "images/Screenshot_20231108_155400.png",
     "images/Screenshot_20231003_163709.png",
     "images/Captura de pantalla (15).png",
-    "README.md",
-    " Linux/Concurrencia/Barbero durmiente.md",
-    " Linux/Concurrencia/Filósofos cenando.md",
-    " Linux/Concurrencia/Inanición.md",
-    " Linux/Concurrencia/Interbloqueo.md",
-    " Linux/Concurrencia/Mútex.md",
-    " Linux/Concurrencia/Sección crítica.md",
-    " Linux/Concurrencia/Semáforos.md",
     "images/Captura de pantalla (78).png",
-    " Linux/Tuberías.md",
-    " Linux/Sistema de ficheros/Estructura del sistema de ficheros.md",
-    " Linux/Sistema de ficheros/Permisos.md",
-    " Linux/Sistema de ficheros/Sistema de ficheros.md",
     "images/Screenshot_20231108_155321.png",
     "images/Screenshot_20231108_094655.png",
     "images/Screenshot_20231108_094546.png",
-    "images/Screenshot_20231005_111706.png",
-    "images/Screenshot_20231003_163632.png",
-    " Linux/Concurrencia/Exclusión mútua.md",
-    " Windows/Formatear un USB Booteable.md",
-    " Git/Comandos/Git add.md",
-    " Linux/Sistema de ficheros/Usuario real y Usuario efectivo.md",
-    " Linux/Sistema de ficheros/Tipos de ficheros.md",
-    "󱁊 Algoritmos/Ordenación/Ordenación Shell.md",
-    "󱁊 Algoritmos/Ordenación/Ordenación rápida (Quicksort).md",
-    "󱁊 Algoritmos/Ordenación/Ordenación por Selección.md",
-    "󱁊 Algoritmos/Ordenación/Ordenación por Inserción.md",
-    "󱁊 Algoritmos/Ordenación/Ordenación por Fusión (MergeSort).md",
-    "Mutex.md",
     " Linux/Concurrencia",
-    "󱁊 Algoritmos/Búsqueda/Búsqueda Binaria.md",
-    " Java/Clases y objetos/Tipos de métodos.md",
     " Bases de Datos/SQL",
     "Sin título",
     " Bases de Datos",
     "󱁊 Algoritmos/Th. Divide Y Vencerás",
     "󱁊 Algoritmos/Montículos",
-    "󱁊 Algoritmos/Búsqueda",
-    "󱁊 Algoritmos/Ordenación",
-    "󱁊 Algoritmos",
-    " Java/Clases y objetos"
+    "󱁊 Algoritmos/Búsqueda"
   ]
 }

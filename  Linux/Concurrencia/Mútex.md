@@ -2,7 +2,7 @@ Un mutex, abreviatura de "mutual exclusion", es un tipo de mecanismo de sincroni
 
 La librería pthread implementa mutex:
 
-```
+```c
 pthread_mutex_t *mutex;
 
 int pthread_mutex_init(pthread_mutex_t *, pthread_mutex_attr *); // inicializa el mutex

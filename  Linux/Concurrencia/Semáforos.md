@@ -2,7 +2,7 @@ Los semáforos son un mecanismo de control de acceso a secciones críticas en pr
 
 ## P(bloquear) y V(liberar)
 
-```
+```c
 V(semaphore S) {
 	S=S+1;
 }
@@ -17,7 +17,7 @@ Un [[Mútex]] es un caso especial de semáforo con valor 1.
 
 ## Semáforos Posix 
 
-```
+```c
 sem_t *sem;
 
 int sem_init(sem_t *sem, int pshared, unsigned int value);
