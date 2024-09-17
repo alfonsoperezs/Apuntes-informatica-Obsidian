@@ -6,7 +6,7 @@ Una base de datos está en 1º FN si cada columna contiene valores atómicos.
 # 2º Forma Normal
 ---
 
-Una base de datos está en 2º FN si está en 1º FN y además se cumple que todos los atributos **NO CLAVE** dependen completamente de la clave principal.
+Un esquema de relación está en la Segunda Forma Normal (2FN) si está en 1FN y además todos los atributos **no primos** son totalmente dependientes de cada clave candidata del esquema, no permitiéndose dependencias parciales.
 
 Otras características que debe cumplir:
 - Si la clave principal es un solo atributo, no hay problemas de dependencias parciales.
