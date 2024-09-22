@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "e0119a0b13ea8763",
+        "id": "a06c162e6c71582c",
         "type": "tabs",
         "children": [
           {
-            "id": "34deea42ed33a25f",
+            "id": "6aef7ad3f4e9c02a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "󰎙 NodeJS/Iniciar servidor HTTP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d534a64ecb0938e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "󰖟 Diseño Web/Conceptos básicos.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "26d59a1020445eb7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": " Python/Shebang.md",
+                "file": "󰒒 Seguridad Informática/1. Categorías de ataques/1.2 Tipos de ataques.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": " Python/Shebang.md",
+                "file": "󰒒 Seguridad Informática/1. Categorías de ataques/1.2 Tipos de ataques.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": " Python/Shebang.md",
+                "file": "󰒒 Seguridad Informática/1. Categorías de ataques/1.2 Tipos de ataques.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": " Python/Shebang.md"
+                "file": "󰒒 Seguridad Informática/1. Categorías de ataques/1.2 Tipos de ataques.md"
               }
             }
           }
@@ -171,54 +146,53 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "26d59a1020445eb7",
+  "active": "6aef7ad3f4e9c02a",
   "lastOpenFiles": [
+    "󰒒 Seguridad Informática/1. Categorías de ataques/1.1 Conceptos básicos.md",
+    "󰒒 Seguridad Informática/1. Categorías de ataques/1.2 Tipos de ataques.md",
+    "Sin título.md",
+    "README.md",
+    "Sin título.canvas",
+    " Python/GTK/7 GUIs/2. Temperature Converter.md",
+    "󰒒 Seguridad Informática/1. Categorías de ataques",
+    " Python/GTK/7 GUIs/3. Flight Booker.md",
     " Python/GTK/Hola Mundo.md",
+    "󰎙 NodeJS/Iniciar servidor HTTP.md",
+    " Linux/Comandos/Comando grep.md",
+    " Linux/Comandos/Comando ldd.md",
+    " Linux/Personalización/Instalar fuentes de letras.md",
+    " Linux/Herramientas/Xosview.md",
     " Python/Shebang.md",
-    " Javascript/Variables.md",
-    " Javascript/AddEventListener.md",
+    "󰒒 Seguridad Informática/Prácticas LSI/Práctica 1.md",
+    "󰒒 Seguridad Informática/Prácticas LSI",
+    "󰒒 Seguridad Informática",
+    "images/Pasted image 20240921130735.png",
+    " Python/GTK/7 GUIs",
+    " Git/Inicializar y Subir un Repositorio a Git.md",
+    " Bases de Datos/Formas Normales.md",
+    " Bases de Datos/SQL/Funciones/SUM.md",
+    " Bases de Datos/SQL/Funciones/COUNT.md",
+    " Bases de Datos/SQL/Funciones/COALESCE.md",
+    " Windows/Formatear un USB Booteable.md",
+    " Linux/Comandos/Comando chmod.md",
+    " Linux/Concurrencia/Proceso Servidor.md",
+    " Linux/Concurrencia/Mútex.md",
+    " Linux/Concurrencia/Inanición.md",
+    " Linux/Concurrencia/Barbero durmiente.md",
     " Python/GTK",
     " Python",
-    "󰖟 Diseño Web/Conceptos básicos.md",
-    "󰎙 NodeJS/Iniciar servidor HTTP.md",
-    " Windows/Formatear un USB Booteable.md",
-    " Linux/Concurrencia/Exclusión mútua.md",
-    " Linux/Concurrencia/Barbero durmiente.md",
-    "Sin título.md",
     "󰖟 Diseño Web",
     "󰖟 Diseño Web",
-    " Linux/Concurrencia/Filósofos cenando.md",
-    " Linux/Concurrencia/Compartición nula.md",
-    " Linux/Concurrencia/Mútex.md",
     "󰎙 NodeJS",
-    " Javascript/getElementById.md",
-    " Bases de Datos/Formas Normales.md",
     " Javascript",
     "images/Pasted image 20240403180702.png",
-    " Linux/Concurrencia/Semáforos.md",
-    " Bases de Datos/Formas Normales/1º Forma Normal.md",
-    " Bases de Datos/Formas Normales",
-    " Linux/Concurrencia/Proceso Servidor.md",
-    " Linux/Concurrencia/Inanición.md",
-    " Linux/Concurrencia/Interbloqueo.md",
-    " Linux/Concurrencia/Sección crítica.md",
-    " Bases de Datos/SQL/JOIN.md",
-    " Bases de Datos/SQL/ORDER BY.md",
-    " Bases de Datos/SQL/SELECT.md",
-    " Bases de Datos/SQL/HAVING.md",
     "Pasted image 20240301133721.png",
-    " Linux/Personalización/Instalar fuentes de letras.md",
-    " Bases de Datos/SQL/JOIN",
-    "Sin título.canvas",
-    " Bases de Datos/SQL/Funciones",
-    " Bases de Datos/SQL/Predicados",
     "images/Screenshot_20231005_112041.png",
     "images/Screenshot_20231108_155349.png",
     "images/Screenshot_20231108_155400.png",
     "images/Screenshot_20231003_163709.png",
     "images/Captura de pantalla (15).png",
     "images/Captura de pantalla (78).png",
-    "images/Screenshot_20231108_155321.png",
-    "images/Screenshot_20231108_094655.png"
+    "images/Screenshot_20231108_155321.png"
   ]
 }
