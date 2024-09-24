@@ -2,8 +2,6 @@
 ---
 En el fichero /etc/network/interfaces es donde configuramos la red de nuestros servidores. 
 
-Accedemos al fichero:
-
 ```bash
 cat /etc/network/interfaces
 ```
@@ -38,4 +36,326 @@ cat /etc/nsswitch.conf
 
 ![[Pasted image 20240923183218.png]]
 
+# Targets
+---
+Los targets son un conjunto de servicios y características activas por defecto en el sistema.
 
+## Ver target por defecto
+
+```bash
+systemctl get-default
+```
+
+```
+graphical.target
+```
+
+## Targets activos en el sistema
+
+```bash
+systemctl list-units --type=target
+```
+
+```
+
+  UNIT                   LOAD   ACTIVE SUB    DESCRIPTION
+  basic.target           loaded active active Basic System
+  cryptsetup.target      loaded active active Local Encrypted Volumes
+  getty.target           loaded active active Login Prompts
+  graphical.target       loaded active active Graphical Interface
+  integritysetup.target  loaded active active Local Integrity Protected Volumes
+  local-fs-pre.target    loaded active active Preparation for Local File Systems
+  local-fs.target        loaded active active Local File Systems
+  multi-user.target      loaded active active Multi-User System
+  network-online.target  loaded active active Network is Online
+  network.target         loaded active active Network
+  nss-user-lookup.target loaded active active User and Group Name Lookups
+  paths.target           loaded active active Path Units
+  remote-fs.target       loaded active active Remote File Systems
+  slices.target          loaded active active Slice Units
+  sockets.target         loaded active active Socket Units
+  sysinit.target         loaded active active System Initialization
+  time-set.target        loaded active active System Time Set
+  timers.target          loaded active active Timer Units
+  veritysetup.target     loaded active active Local Verity Protected Volumes
+
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+19 loaded units listed. Pass --all to see loaded but inactive units, too.
+To show all installed unit files use 'systemctl list-unit-files'.
+
+```
+
+## Targets disponibles en el sistema
+
+```bash
+systemctl list-unit-files --type=target
+```
+
+```
+UNIT FILE                     STATE    PRESET
+basic.target                  static   -
+blockdev@.target              static   -
+bluetooth.target              static   -
+boot-complete.target          static   -
+cryptsetup-pre.target         static   -
+cryptsetup.target             static   -
+ctrl-alt-del.target           alias    -
+default.target                alias    -
+emergency.target              static   -
+exit.target                   disabled disabled
+factory-reset.target          static   -
+final.target                  static   -
+first-boot-complete.target    static   -
+getty-pre.target              static   -
+getty.target                  static   -
+graphical.target              static   -
+halt.target                   disabled disabled
+hibernate.target              static   -
+hybrid-sleep.target           static   -
+initrd-fs.target              static   -
+initrd-root-device.target     static   -
+initrd-root-fs.target         static   -
+initrd-switch-root.target     static   -
+initrd-usr-fs.target          static   -
+initrd.target                 static   -
+integritysetup-pre.target     static   -
+integritysetup.target         static   -
+kexec.target                  disabled disabled
+local-fs-pre.target           static   -
+local-fs.target               static   -
+multi-user.target             static   -
+network-online.target         static   -
+network-pre.target            static   -
+network.target                static   -
+nss-lookup.target             static   -
+nss-user-lookup.target        static   -
+```
+
+# Services
+---
+Un servicio es un programa que se ejecuta en segundo plano, fuera del control interactivo de los usuarios del sistema, ya que carecen de una interfaz.
+
+## Listar services
+
+```bash
+systemctl list-unit-files --type=target
+```
+
+```
+UNIT FILE                                  STATE           PRESET
+accounts-daemon.service                    enabled         enabled
+alsa-restore.service                       static          -
+alsa-state.service                         static          -
+alsa-utils.service                         masked          enabled
+anacron.service                            enabled         enabled
+apparmor.service                           enabled         enabled
+apt-daily-upgrade.service                  static          -
+apt-daily.service                          static          -
+autovt@.service                            alias           -
+avahi-daemon.service                       enabled         enabled
+bluetooth.service                          enabled         enabled
+bolt.service                               static          -
+colord.service                             static          -
+configure-printer@.service                 static          -
+console-getty.service                      disabled        disabled
+console-setup.service                      enabled         enabled
+container-getty@.service                   static          -
+cron.service                               enabled         enabled
+cryptdisks-early.service                   masked          enabled
+cryptdisks.service                         masked          enabled
+cups-browsed.service                       enabled         enabled
+cups.service                               enabled         enabled
+dbus-fi.w1.wpa_supplicant1.service         alias           -
+dbus-org.bluez.service                     alias           -
+dbus-org.freedesktop.Avahi.service         alias           -
+dbus-org.freedesktop.hostname1.service     alias           -
+dbus-org.freedesktop.locale1.service       alias           -
+dbus-org.freedesktop.login1.service        alias           -
+dbus-org.freedesktop.ModemManager1.service alias           -
+dbus-org.freedesktop.nm-dispatcher.service alias           -
+dbus-org.freedesktop.timedate1.service     alias           -
+dbus-org.freedesktop.timesync1.service     alias           -
+dbus.service                               static          -
+debug-shell.service                        disabled        disabled
+display-manager.service                    alias           -
+dpkg-db-backup.service                     static          -
+e2scrub@.service                           static          -
+e2scrub_all.service                        static          -
+e2scrub_fail@.service                      static          -
+e2scrub_reap.service                       enabled         enabled
+emergency.service                          static          -
+fstrim.service                             static          -
+fwupd-offline-update.service               static          -
+fwupd-refresh.service                      static          -
+fwupd.service                              static          -
+gdm.service                                static          -
+gdm3.service                               alias           -
+geoclue.service                            static          -
+getty-static.service                       static          -
+getty@.service                             enabled         enabled
+hwclock.service                            masked          enabled
+ifup@.service                              static          -
+ifupdown-pre.service                       static          -
+ifupdown-wait-online.service               disabled        enabled
+iio-sensor-proxy.service                   static          -
+initrd-cleanup.service                     static          -
+initrd-parse-etc.service                   static          -
+initrd-switch-root.service                 static          -
+initrd-udevadm-cleanup-db.service          static          -
+ipp-usb.service                            static          -
+keyboard-setup.service                     enabled         enabled
+kmod-static-nodes.service                  static          -
+kmod.service                               alias           -
+logrotate.service                          static          -
+man-db.service                             static          -
+ModemManager.service                       enabled         enabled
+modprobe@.service                          static          -
+networking.service                         enabled         enabled
+NetworkManager-dispatcher.service          enabled         enabled
+NetworkManager-wait-online.service         enabled         enabled
+NetworkManager.service                     enabled         enabled
+nm-priv-helper.service                     static          -
+open-vm-tools.service                      enabled         enabled
+packagekit-offline-update.service          static          -
+packagekit.service                         static          -
+pam_namespace.service                      static          -
+plymouth-halt.service                      static          -
+plymouth-kexec.service                     static          -
+plymouth-log.service                       alias           -
+plymouth-poweroff.service                  static          -
+plymouth-quit-wait.service                 static          -
+plymouth-quit.service                      static          -
+plymouth-read-write.service                static          -
+plymouth-reboot.service                    static          -
+plymouth-start.service                     static          -
+plymouth-switch-root-initramfs.service     static          -
+plymouth-switch-root.service               static          -
+plymouth.service                           alias           -
+polkit.service                             static          -
+power-profiles-daemon.service              enabled         enabled
+powertop.service                           disabled        enabled
+procps.service                             alias           -
+pulseaudio-enable-autospawn.service        generated       -
+quotaon.service                            static          -
+rc-local.service                           static          -
+rc.service                                 masked          enabled
+rcS.service                                masked          enabled
+realmd.service                             static          -
+rescue.service                             static          -
+rsyslog.service                            enabled         enabled
+rtkit-daemon.service                       disabled        enabled
+saned.service                              masked          enabled
+saned@.service                             indirect        enabled
+serial-getty@.service                      disabled        enabled
+speech-dispatcher.service                  generated       -
+speech-dispatcherd.service                 disabled        enabled
+ssa.service                                bad             enabled
+ssh.service                                enabled         enabled
+sshd.service                               alias           -
+sudo.service                               masked          enabled
+switcheroo-control.service                 enabled         enabled
+syslog.service                             alias           -
+system-update-cleanup.service              static          -
+systemd-ask-password-console.service       static          -
+systemd-ask-password-plymouth.service      static          -
+systemd-ask-password-wall.service          static          -
+systemd-backlight@.service                 static          -
+systemd-binfmt.service                     static          -
+systemd-boot-check-no-failures.service     disabled        disabled
+systemd-exit.service                       static          -
+systemd-firstboot.service                  static          -
+systemd-fsck-root.service                  enabled-runtime enabled
+systemd-fsck@.service                      static          -
+systemd-fsckd.service                      static          -
+systemd-halt.service                       static          -
+systemd-hibernate-resume@.service          static          -
+systemd-hibernate.service                  static          -
+systemd-hostnamed.service                  static          -
+systemd-hybrid-sleep.service               static          -
+systemd-initctl.service                    static          -
+systemd-journal-flush.service              static          -
+systemd-journald.service                   static          -
+systemd-journald@.service                  static          -
+systemd-kexec.service                      static          -
+systemd-localed.service                    static          -
+systemd-logind.service                     static          -
+systemd-machine-id-commit.service          static          -
+systemd-modules-load.service               static          -
+systemd-network-generator.service          disabled        enabled
+systemd-networkd-wait-online.service       disabled        disabled
+systemd-networkd-wait-online@.service      disabled        enabled
+systemd-networkd.service                   disabled        enabled
+systemd-pcrphase-initrd.service            static          -
+systemd-pcrphase-sysinit.service           static          -
+systemd-pcrphase.service                   static          -
+systemd-poweroff.service                   static          -
+systemd-pstore.service                     enabled         enabled
+systemd-quotacheck.service                 static          -
+systemd-random-seed.service                static          -
+systemd-reboot.service                     static          -
+systemd-remount-fs.service                 enabled-runtime enabled
+systemd-repart.service                     static          -
+systemd-rfkill.service                     static          -
+systemd-suspend-then-hibernate.service     static          -
+systemd-suspend.service                    static          -
+systemd-sysctl.service                     static          -
+systemd-sysext.service                     disabled        enabled
+systemd-sysusers.service                   static          -
+systemd-time-wait-sync.service             disabled        disabled
+systemd-timedated.service                  static          -
+systemd-timesyncd.service                  enabled         enabled
+systemd-tmpfiles-clean.service             static          -
+systemd-tmpfiles-setup-dev.service         static          -
+systemd-tmpfiles-setup.service             static          -
+systemd-udev-settle.service                static          -
+systemd-udev-trigger.service               static          -
+systemd-udevd.service                      static          -
+systemd-update-utmp-runlevel.service       static          -
+systemd-update-utmp.service                static          -
+systemd-user-sessions.service              static          -
+systemd-volatile-root.service              static          -
+tpm2-abrmd.service                         enabled         enabled
+udev.service                               alias           -
+udisks2.service                            enabled         enabled
+unattended-upgrades.service                enabled         enabled
+upower.service                             disabled        enabled
+usb_modeswitch@.service                    static          -
+usbmuxd.service                            static          -
+user-runtime-dir@.service                  static          -
+user@.service                              static          -
+vgauth.service                             enabled         enabled
+vmtoolsd.service                           alias           -
+wacom-inputattach@.service                 static          -
+wpa_supplicant-nl80211@.service            disabled        enabled
+wpa_supplicant-wired@.service              disabled        enabled
+wpa_supplicant.service                     enabled         enabled
+wpa_supplicant@.service                    disabled        enabled
+x11-common.service                         masked          enabled
+
+188 unit files listed.
+```
+
+# Unidades
+---
+## Ver tipos de unidades
+
+```bash
+systemctl list-units -t help
+```
+
+```
+Available unit types:
+service
+mount
+swap
+socket
+target
+device
+automount
+timer
+path
+slice
+scope
+```
