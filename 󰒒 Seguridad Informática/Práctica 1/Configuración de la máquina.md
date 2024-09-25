@@ -6,7 +6,7 @@ En el fichero /etc/network/interfaces es donde configuramos la red de nuestros s
 cat /etc/network/interfaces
 ```
 
-![[images/etc-interfaces.png]]
+![](images/etc-interfaces.png)
 
 Las interfaces que se deseen levantar durante el arranque de el sistema se deben indicar con `auto`.
 
