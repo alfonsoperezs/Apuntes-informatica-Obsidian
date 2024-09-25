@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "󰒒 Seguridad Informática/1. Categorías de ataques/1.2 Tipos de ataques.md",
+                "file": "󰒒 Seguridad Informática/Práctica 1/Configuración de la máquina.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5110321044922
+    "width": 524.5110321044922
   },
   "right": {
     "id": "87a956ab923d5a49",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "󰒒 Seguridad Informática/1. Categorías de ataques/1.2 Tipos de ataques.md",
+                "file": "󰒒 Seguridad Informática/Práctica 1/Configuración de la máquina.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "󰒒 Seguridad Informática/1. Categorías de ataques/1.2 Tipos de ataques.md",
+                "file": "󰒒 Seguridad Informática/Práctica 1/Configuración de la máquina.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "󰒒 Seguridad Informática/1. Categorías de ataques/1.2 Tipos de ataques.md"
+                "file": "󰒒 Seguridad Informática/Práctica 1/Configuración de la máquina.md"
               }
             }
           }
@@ -146,53 +146,54 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "6aef7ad3f4e9c02a",
+  "active": "610a6715a86aeff6",
   "lastOpenFiles": [
-    "󰒒 Seguridad Informática/1. Categorías de ataques/1.1 Conceptos básicos.md",
-    "󰒒 Seguridad Informática/1. Categorías de ataques/1.2 Tipos de ataques.md",
-    "Sin título.md",
-    "README.md",
-    "Sin título.canvas",
-    " Python/GTK/7 GUIs/2. Temperature Converter.md",
-    "󰒒 Seguridad Informática/1. Categorías de ataques",
+    " Python/Shebang.md",
+    " Python/Tipos y estructuras básicas.md",
+    "󰒒 Seguridad Informática/2. La trilogía/2.1 Host Discovery.md",
+    "󰒒 Seguridad Informática/Práctica 1/Configuración de la máquina.md",
     " Python/GTK/7 GUIs/3. Flight Booker.md",
+    " Python/GTK/7 GUIs/2. Temperature Converter.md",
     " Python/GTK/Hola Mundo.md",
+    " Python/GTK/7 GUIs",
+    " Python/GTK",
+    "README.md",
+    " Linux/Comandos/Comando ls.md",
     "󰎙 NodeJS/Iniciar servidor HTTP.md",
+    " Linux/Comandos/Comando fsck.md",
+    " Linux/Comandos/Comando pmap.md",
+    " Windows/Formatear un USB Booteable.md",
+    " Python/Sin título.md",
+    "GTK/7 GUIs/2. Temperature Converter.md",
+    "GTK/7 GUIs/3. Flight Booker.md",
+    "GTK/Hola Mundo.md",
+    "images/Pasted image 20240923183218.png",
+    "images/Pasted image 20240923180356.png",
+    "images/Pasted image 20240923180016.png",
+    " Linux/Comandos/Comando find.md",
+    "images/etc-interfaces.png",
+    " Linux/Comandos/Comando history.md",
+    "󰒒 Seguridad Informática/Práctica 1",
+    " Linux/Comandos/Comando ps.md",
+    " Linux/Comandos/Comando locate.md",
+    " Linux/Comandos/Comando df.md",
+    " Linux/Comandos/Comando du.md",
+    "images/Pasted image 20240922193927.png",
+    " Linux/Comandos/Comando chmod.md",
     " Linux/Comandos/Comando grep.md",
     " Linux/Comandos/Comando ldd.md",
-    " Linux/Personalización/Instalar fuentes de letras.md",
-    " Linux/Herramientas/Xosview.md",
-    " Python/Shebang.md",
-    "󰒒 Seguridad Informática/Prácticas LSI/Práctica 1.md",
+    "images/Pasted image 20240922192332.png",
+    "󰒒 Seguridad Informática/2. La trilogía",
+    "Sin título.canvas",
+    "󰒒 Seguridad Informática/1. Categorías de ataques",
     "󰒒 Seguridad Informática/Prácticas LSI",
     "󰒒 Seguridad Informática",
     "images/Pasted image 20240921130735.png",
-    " Python/GTK/7 GUIs",
-    " Git/Inicializar y Subir un Repositorio a Git.md",
-    " Bases de Datos/Formas Normales.md",
-    " Bases de Datos/SQL/Funciones/SUM.md",
-    " Bases de Datos/SQL/Funciones/COUNT.md",
-    " Bases de Datos/SQL/Funciones/COALESCE.md",
-    " Windows/Formatear un USB Booteable.md",
-    " Linux/Comandos/Comando chmod.md",
-    " Linux/Concurrencia/Proceso Servidor.md",
-    " Linux/Concurrencia/Mútex.md",
-    " Linux/Concurrencia/Inanición.md",
-    " Linux/Concurrencia/Barbero durmiente.md",
-    " Python/GTK",
+    "GTK/7 GUIs",
+    "GTK",
     " Python",
-    "󰖟 Diseño Web",
-    "󰖟 Diseño Web",
-    "󰎙 NodeJS",
-    " Javascript",
     "images/Pasted image 20240403180702.png",
     "Pasted image 20240301133721.png",
-    "images/Screenshot_20231005_112041.png",
-    "images/Screenshot_20231108_155349.png",
-    "images/Screenshot_20231108_155400.png",
-    "images/Screenshot_20231003_163709.png",
-    "images/Captura de pantalla (15).png",
-    "images/Captura de pantalla (78).png",
-    "images/Screenshot_20231108_155321.png"
+    "images/Screenshot_20231005_112041.png"
   ]
 }
