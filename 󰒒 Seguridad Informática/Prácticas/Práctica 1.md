@@ -6,7 +6,7 @@ En el fichero /etc/network/interfaces es donde configuramos la red de nuestros s
 cat /etc/network/interfaces
 ```
 
-![](images/etc-interfaces.png)
+![[images/etc-interfaces.png]]
 
 Las interfaces que se deseen levantar durante el arranque de el sistema se deben indicar con `auto`.
 
@@ -36,6 +36,11 @@ cat /etc/nsswitch.conf
 
 ![[Pasted image 20240923183218.png]]
 
+# Distribución de mi máquina
+---
+```bash
+lsb_release -a
+```
 # Targets
 ---
 Los targets son un conjunto de servicios y características activas por defecto en el sistema.
@@ -115,22 +120,7 @@ halt.target                   disabled disabled
 hibernate.target              static   -
 hybrid-sleep.target           static   -
 initrd-fs.target              static   -
-initrd-root-device.target     static   -
-initrd-root-fs.target         static   -
-initrd-switch-root.target     static   -
-initrd-usr-fs.target          static   -
-initrd.target                 static   -
-integritysetup-pre.target     static   -
-integritysetup.target         static   -
-kexec.target                  disabled disabled
-local-fs-pre.target           static   -
-local-fs.target               static   -
-multi-user.target             static   -
-network-online.target         static   -
-network-pre.target            static   -
-network.target                static   -
-nss-lookup.target             static   -
-nss-user-lookup.target        static   -
+...
 ```
 
 # Services
@@ -140,7 +130,7 @@ Un servicio es un programa que se ejecuta en segundo plano, fuera del control in
 ## Listar services
 
 ```bash
-systemctl list-unit-files --type=target
+systemctl list-unit-files --type=service
 ```
 
 ```
@@ -172,6 +162,12 @@ dbus-org.bluez.service                     alias           -
 ...
 
 188 unit files listed.
+```
+
+## Ver si los servicios fallan
+
+```bash
+systemctl list-unit-files --type=service --state=failed
 ```
 
 # Unidades
@@ -214,5 +210,103 @@ multi-user.target reached after 9min 33.499s in userspace.
 
 ```bash
 systemd-analyze blame
+```
+
+# Systemd-timesyncd
+---
+`systemd-timesyncd` es un demonio que se ha añadido para sincronizar el reloj del sistema a través de la red con una fuente de tiempo precisa.
+
+Comprobamos que el servicio está activo:
+
+```
+systemd-timesyncd.service                  enabled         enabled
+```
+
+Accedemos a su fichero de configuración:
+
+```bash
+cat /etc/systemd/timesyncd.conf
+```
+
+```
+#  This file is part of systemd.
+#
+#  systemd is free software; you can redistribute it and/or modify it under the
+#  terms of the GNU Lesser General Public License as published by the Free
+#  Software Foundation; either version 2.1 of the License, or (at your option)
+#  any later version.
+#
+# Entries in this file show the compile time defaults. Local configuration
+# should be created by either modifying this file, or by creating "drop-ins" in
+# the timesyncd.conf.d/ subdirectory. The latter is generally recommended.
+# Defaults can be restored by simply deleting this file and all drop-ins.
+#
+# See timesyncd.conf(5) for details.
+
+[Time]
+#NTP=
+#FallbackNTP=0.debian.pool.ntp.org 1.debian.pool.ntp.org 2.debian.pool.ntp.org 3.debian.pool.ntp.org
+#RootDistanceMaxSec=5
+#PollIntervalMinSec=32
+#PollIntervalMaxSec=2048
+#ConnectionRetrySec=30
+#SaveIntervalSec=60
+```
+
+# Tablas de enrutamiento
+---
+## Ver rutas definidas en el sistema
+
+```bash
+netstat -rn
+```
+
+- `-r`: Muestra la tabla de enrutamiento
+- `-n`: No resuelve nombres, solo muestra IPs.
+
+```
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+0.0.0.0         10.11.48.1      0.0.0.0         UG        0 0          0 ens33
+10.11.48.0      0.0.0.0         255.255.254.0   U         0 0          0 ens33
+10.11.50.0      0.0.0.0         255.255.254.0   U         0 0          0 ens34
+169.254.0.0     0.0.0.0         255.255.0.0     U         0 0          0 ens33
+```
+
+## Agregar y borrar rutas
+
+> [!WARNING] IMPORTANTE
+> Se necesitan permisos de superusuario
+
+```
+route add -net <IP> netmask <mask> gw <gateway> dev <iface>
+```
+
+Queremos añadir a la tabla de enrutamiento la ruta a `10.11.51.0` por el iface `ens34`.
+
+```
+route -p add -net 10.11.51.0 netmask 255.255.255.0 dev ens34
+```
+
+- `-p`: Ruta persistente tras reiniciar el sistema.
+- `-net`: El destino es una red.
+- `netmask`: Especifica la máscara de red
+- `dev` : Interfaz
+- `gw` : Gateway
+
+```
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+0.0.0.0         10.11.48.1      0.0.0.0         UG        0 0          0 ens33
+10.11.48.0      0.0.0.0         255.255.254.0   U         0 0          0 ens33
+10.11.50.0      0.0.0.0         255.255.254.0   U         0 0          0 ens34
+10.11.51.0      0.0.0.0         255.255.255.0   U         0 0          0 ens34
+169.254.0.0     0.0.0.0         255.255.0.0     U         0 0          0 ens33
+```
+
+Ahora vamos a borrar la ruta que acabamos de poner:
+
+```
+route del -net 10.11.51.0 netmask 255.255.255.0 dev ens34
 ```
 
