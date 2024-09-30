@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a06c162e6c71582c",
+        "id": "98bb8059b161b5f6",
         "type": "tabs",
         "children": [
           {
-            "id": "6aef7ad3f4e9c02a",
+            "id": "1fedd914bc328cc4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "󰒒 Seguridad Informática/Práctica 1/Configuración de la máquina.md",
+                "file": "󰒒 Seguridad Informática/Prácticas/Práctica 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 524.5110321044922
+    "width": 501.5110321044922
   },
   "right": {
     "id": "87a956ab923d5a49",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "󰒒 Seguridad Informática/Práctica 1/Configuración de la máquina.md",
+                "file": "󰒒 Seguridad Informática/Prácticas/Práctica 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "󰒒 Seguridad Informática/Práctica 1/Configuración de la máquina.md",
+                "file": "󰒒 Seguridad Informática/Prácticas/Práctica 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "󰒒 Seguridad Informática/Práctica 1/Configuración de la máquina.md"
+                "file": "󰒒 Seguridad Informática/Prácticas/Práctica 1.md"
               }
             }
           }
@@ -146,12 +146,16 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "610a6715a86aeff6",
+  "active": "1fedd914bc328cc4",
   "lastOpenFiles": [
+    "images/Pasted image 20240929131048.png",
+    "󰒒 Seguridad Informática/Prácticas/Práctica 1.md",
+    " Linux/Comandos/Comando top.md",
+    "󰒒 Seguridad Informática/2. La trilogía/2.1 Host Discovery.md",
+    "󰒒 Seguridad Informática/1. Categorías de ataques/1.1 Conceptos básicos.md",
+    "󰒒 Seguridad Informática/1. Categorías de ataques/1.2 Tipos de ataques.md",
     " Python/Shebang.md",
     " Python/Tipos y estructuras básicas.md",
-    "󰒒 Seguridad Informática/2. La trilogía/2.1 Host Discovery.md",
-    "󰒒 Seguridad Informática/Práctica 1/Configuración de la máquina.md",
     " Python/GTK/7 GUIs/3. Flight Booker.md",
     " Python/GTK/7 GUIs/2. Temperature Converter.md",
     " Python/GTK/Hola Mundo.md",
@@ -173,15 +177,11 @@
     " Linux/Comandos/Comando find.md",
     "images/etc-interfaces.png",
     " Linux/Comandos/Comando history.md",
-    "󰒒 Seguridad Informática/Práctica 1",
+    "󰒒 Seguridad Informática/Prácticas",
     " Linux/Comandos/Comando ps.md",
     " Linux/Comandos/Comando locate.md",
     " Linux/Comandos/Comando df.md",
-    " Linux/Comandos/Comando du.md",
     "images/Pasted image 20240922193927.png",
-    " Linux/Comandos/Comando chmod.md",
-    " Linux/Comandos/Comando grep.md",
-    " Linux/Comandos/Comando ldd.md",
     "images/Pasted image 20240922192332.png",
     "󰒒 Seguridad Informática/2. La trilogía",
     "Sin título.canvas",
@@ -193,7 +193,6 @@
     "GTK",
     " Python",
     "images/Pasted image 20240403180702.png",
-    "Pasted image 20240301133721.png",
-    "images/Screenshot_20231005_112041.png"
+    "Pasted image 20240301133721.png"
   ]
 }

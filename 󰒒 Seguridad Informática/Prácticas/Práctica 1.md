@@ -253,6 +253,34 @@ cat /etc/systemd/timesyncd.conf
 #SaveIntervalSec=60
 ```
 
+# Interfaz lógico
+---
+Una **interfaz lógica** es una forma virtual de configurar una red que se basa en una interfaz física. Permite asignar múltiples direcciones IP a una sola tarjeta de red.
+## Configurar un nuevo interfaz lógico
+
+> [!WARNING] 
+> Se necesitan permisos de superusuario
+
+Crearlo.
+```
+ifconfig ens34:0 10.11.52.1/24
+```
+
+Activarlo.
+```
+ ifconfig ens34:0 up
+```
+
+Comprobar que está activado.
+```
+ifconfig
+```
+
+![[Pasted image 20240929131048.png]]
+Apagarlo (si se desea).
+```
+ifconfig ens34:0 down
+```
 # Tablas de enrutamiento
 ---
 ## Ver rutas definidas en el sistema
@@ -275,7 +303,7 @@ Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
 
 ## Agregar y borrar rutas
 
-> [!WARNING] IMPORTANTE
+> [!WARNING] 
 > Se necesitan permisos de superusuario
 
 ```
@@ -310,3 +338,24 @@ Ahora vamos a borrar la ruta que acabamos de poner:
 route del -net 10.11.51.0 netmask 255.255.255.0 dev ens34
 ```
 
+# Identificar servicios no necesarios
+---
+## Enmascarar servicios
+
+Enmascarando se bloquea completamente el servicio, evitando cualquier inicio hasta que se desenmascare.
+
+```
+systemctl mask <service>
+```
+## Desactivar servicios
+
+Desactivando se permite que el servicio siga existiendo y se pueda iniciar manualmente.
+
+```
+systemctl disable <service>
+```
+## Servicios no necesarios
+
+- `bluetooth.service`: Servicio de Bluetooth.
+- `avahi-daemon.service`: Avahi permite detectar automáticamente los recursos de una red local y conectarse a ella. En términos generales se ocupa de asignar automáticamente una dirección IP incluso sin presencia de un servidor DHCP, hacer la función de DNS y crear una lista de los servicios a fin de acceder a ellos fácilmente.
+- `modemmanager.service`: Es un servicio de systemd necesario para conexiones 2G/3G/4G.
