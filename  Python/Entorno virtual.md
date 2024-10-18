@@ -19,3 +19,5 @@ Si hemos terminado de trabajar, podemos desactivar el entorno así:
 ```
 deactivate
 ```
+
+

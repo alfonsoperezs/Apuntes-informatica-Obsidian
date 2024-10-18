@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "󰒒 Seguridad Informática/Prácticas/Práctica 1.md",
+                "file": "󰒒 Seguridad Informática/1. Categorías de ataques/1.1 Conceptos básicos.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 501.5110321044922
+    "width": 359.5110321044922
   },
   "right": {
     "id": "87a956ab923d5a49",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "󰒒 Seguridad Informática/Prácticas/Práctica 1.md",
+                "file": "󰒒 Seguridad Informática/1. Categorías de ataques/1.1 Conceptos básicos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,8 +102,8 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "󰒒 Seguridad Informática/Prácticas/Práctica 1.md",
-                "linksCollapsed": false,
+                "file": "󰒒 Seguridad Informática/1. Categorías de ataques/1.1 Conceptos básicos.md",
+                "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -125,11 +125,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "󰒒 Seguridad Informática/Prácticas/Práctica 1.md"
+                "file": "󰒒 Seguridad Informática/1. Categorías de ataques/1.1 Conceptos básicos.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -148,12 +149,18 @@
   },
   "active": "1fedd914bc328cc4",
   "lastOpenFiles": [
-    "images/Pasted image 20240929131048.png",
     "󰒒 Seguridad Informática/Prácticas/Práctica 1.md",
-    " Linux/Comandos/Comando top.md",
-    "󰒒 Seguridad Informática/2. La trilogía/2.1 Host Discovery.md",
     "󰒒 Seguridad Informática/1. Categorías de ataques/1.1 Conceptos básicos.md",
+    "Sin título.md",
     "󰒒 Seguridad Informática/1. Categorías de ataques/1.2 Tipos de ataques.md",
+    "󰒒 Seguridad Informática/2. La trilogía/2.1 Host Discovery.md",
+    " Python/Entorno virtual.md",
+    "images/Pasted image 20240929131048 1.png",
+    " Linux/Comandos/Comando du.md",
+    " Linux/Comandos/Comando ls.md",
+    " Linux/Comandos/Comando top.md",
+    " Linux/Comandos/Comando ps.md",
+    "images/Pasted image 20240929131048.png",
     " Python/Shebang.md",
     " Python/Tipos y estructuras básicas.md",
     " Python/GTK/7 GUIs/3. Flight Booker.md",
@@ -162,12 +169,10 @@
     " Python/GTK/7 GUIs",
     " Python/GTK",
     "README.md",
-    " Linux/Comandos/Comando ls.md",
     "󰎙 NodeJS/Iniciar servidor HTTP.md",
     " Linux/Comandos/Comando fsck.md",
     " Linux/Comandos/Comando pmap.md",
     " Windows/Formatear un USB Booteable.md",
-    " Python/Sin título.md",
     "GTK/7 GUIs/2. Temperature Converter.md",
     "GTK/7 GUIs/3. Flight Booker.md",
     "GTK/Hola Mundo.md",
@@ -178,9 +183,7 @@
     "images/etc-interfaces.png",
     " Linux/Comandos/Comando history.md",
     "󰒒 Seguridad Informática/Prácticas",
-    " Linux/Comandos/Comando ps.md",
     " Linux/Comandos/Comando locate.md",
-    " Linux/Comandos/Comando df.md",
     "images/Pasted image 20240922193927.png",
     "images/Pasted image 20240922192332.png",
     "󰒒 Seguridad Informática/2. La trilogía",
@@ -192,7 +195,6 @@
     "GTK/7 GUIs",
     "GTK",
     " Python",
-    "images/Pasted image 20240403180702.png",
-    "Pasted image 20240301133721.png"
+    "images/Pasted image 20240403180702.png"
   ]
 }
