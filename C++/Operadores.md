@@ -1,0 +1,5 @@
+- Operador módulo: %
+- Comparaciones compuestas:
+	- and: &&
+	- or: ||
+- Operador de igualdad: ==

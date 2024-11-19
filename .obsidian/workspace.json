@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "98bb8059b161b5f6",
+        "id": "759b4891baa66c30",
         "type": "tabs",
         "children": [
           {
-            "id": "1fedd914bc328cc4",
+            "id": "1aed001f26aae06b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "󰒒 Seguridad Informática/1. Categorías de ataques/1.1 Conceptos básicos.md",
+                "file": "C++/Condicionales.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Condicionales"
             }
           }
         ]
@@ -39,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -54,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
             }
           },
           {
@@ -62,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
             }
           }
         ]
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "󰒒 Seguridad Informática/1. Categorías de ataques/1.1 Conceptos básicos.md",
+                "file": " Linux/Concurrencia/Interbloqueo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de Interbloqueo"
             }
           },
           {
@@ -102,10 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "󰒒 Seguridad Informática/1. Categorías de ataques/1.1 Conceptos básicos.md",
+                "file": " Linux/Concurrencia/Interbloqueo.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de Interbloqueo"
             }
           },
           {
@@ -116,7 +128,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
             }
           },
           {
@@ -125,8 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "󰒒 Seguridad Informática/1. Categorías de ataques/1.1 Conceptos básicos.md"
-              }
+                "file": " Linux/Concurrencia/Interbloqueo.md"
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de Interbloqueo"
             }
           }
         ],
@@ -147,43 +163,44 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "1fedd914bc328cc4",
+  "active": "610a6715a86aeff6",
   "lastOpenFiles": [
-    "󰒒 Seguridad Informática/Prácticas/Práctica 1.md",
-    "󰒒 Seguridad Informática/1. Categorías de ataques/1.1 Conceptos básicos.md",
-    "Sin título.md",
-    "󰒒 Seguridad Informática/1. Categorías de ataques/1.2 Tipos de ataques.md",
-    "󰒒 Seguridad Informática/2. La trilogía/2.1 Host Discovery.md",
-    " Python/Entorno virtual.md",
-    "images/Pasted image 20240929131048 1.png",
-    " Linux/Comandos/Comando du.md",
-    " Linux/Comandos/Comando ls.md",
-    " Linux/Comandos/Comando top.md",
+    "C++/Operadores.md",
+    "C++/Condicionales.md",
+    "C++",
     " Linux/Comandos/Comando ps.md",
-    "images/Pasted image 20240929131048.png",
-    " Python/Shebang.md",
+    " Linux/Comandos/Comando ls.md",
+    " Linux/Comandos/Comando ldd.md",
+    " Linux/Comandos/Comando df.md",
+    " Python/GTK/Hola Mundo.md",
+    "󰒒 Seguridad Informática/2. La trilogía/2.1 Host Discovery.md",
+    "󰒒 Seguridad Informática/1. Categorías de ataques/1.1 Conceptos básicos.md",
+    "󰒒 Seguridad Informática/1. Categorías de ataques/1.2 Tipos de ataques.md",
+    "󰎙 NodeJS/Iniciar servidor HTTP.md",
+    " Bases de Datos/SQL/Predicados/LIKE.md",
+    " Bases de Datos/SQL/Predicados/Predicados de nulos.md",
+    " Bases de Datos/SQL/Predicados/IN.md",
     " Python/Tipos y estructuras básicas.md",
+    " Python/Entorno virtual.md",
+    " Python/Shebang.md",
+    " Git/Inicializar y Subir un Repositorio a Git.md",
+    " Linux/Concurrencia/Mútex.md",
+    " Linux/Concurrencia/Proceso Servidor.md",
+    " Linux/Concurrencia/Semáforos.md",
     " Python/GTK/7 GUIs/3. Flight Booker.md",
     " Python/GTK/7 GUIs/2. Temperature Converter.md",
-    " Python/GTK/Hola Mundo.md",
+    "󰒒 Seguridad Informática/Prácticas/Práctica 1.md",
+    "images/Pasted image 20240929131048 1.png",
+    " Linux/Comandos/Comando du.md",
+    " Linux/Comandos/Comando top.md",
+    "images/Pasted image 20240929131048.png",
     " Python/GTK/7 GUIs",
     " Python/GTK",
-    "README.md",
-    "󰎙 NodeJS/Iniciar servidor HTTP.md",
-    " Linux/Comandos/Comando fsck.md",
-    " Linux/Comandos/Comando pmap.md",
-    " Windows/Formatear un USB Booteable.md",
-    "GTK/7 GUIs/2. Temperature Converter.md",
-    "GTK/7 GUIs/3. Flight Booker.md",
-    "GTK/Hola Mundo.md",
     "images/Pasted image 20240923183218.png",
     "images/Pasted image 20240923180356.png",
     "images/Pasted image 20240923180016.png",
-    " Linux/Comandos/Comando find.md",
     "images/etc-interfaces.png",
-    " Linux/Comandos/Comando history.md",
     "󰒒 Seguridad Informática/Prácticas",
-    " Linux/Comandos/Comando locate.md",
     "images/Pasted image 20240922193927.png",
     "images/Pasted image 20240922192332.png",
     "󰒒 Seguridad Informática/2. La trilogía",
@@ -194,7 +211,6 @@
     "images/Pasted image 20240921130735.png",
     "GTK/7 GUIs",
     "GTK",
-    " Python",
     "images/Pasted image 20240403180702.png"
   ]
 }

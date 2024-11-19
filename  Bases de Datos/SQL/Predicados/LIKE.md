@@ -23,3 +23,4 @@ SELECT *
 FROM empleados
 WHERE nombre LIKE 'J%';
 ```
+
