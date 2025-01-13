@@ -1,7 +1,8 @@
 {
   "accentColor": "#4c00ff",
-  "baseFontSize": 13,
+  "baseFontSize": 17,
   "cssTheme": "Atom",
   "textFontFamily": "",
-  "interfaceFontFamily": "FiraCode Nerd Font,Mononoki Nerd Font"
+  "interfaceFontFamily": "FiraCode Nerd Font,Mononoki Nerd Font",
+  "theme": "obsidian"
 }
