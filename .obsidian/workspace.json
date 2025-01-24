@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "759b4891baa66c30",
+        "id": "fc2c1cea0301bdbb",
         "type": "tabs",
         "children": [
           {
-            "id": "1aed001f26aae06b",
+            "id": "9f85d41bbb48ae24",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding/NodeJS/Iniciar servidor HTTP.md",
+                "file": "Diseño Web/React/JSX.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Iniciar servidor HTTP"
+              "title": "JSX"
             }
           }
         ]
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.5110321044922
+    "width": 200
   },
   "right": {
     "id": "87a956ab923d5a49",
@@ -164,11 +164,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "610a6715a86aeff6",
+  "active": "9f85d41bbb48ae24",
   "lastOpenFiles": [
+    "Diseño Web/React/HTML y Javascript vs React.md",
+    "Diseño Web/React/JSX.md",
+    "Coding/NodeJS/Iniciar servidor HTTP.md",
+    "Diseño Web/React",
     "Excalidraw/Drawing 2025-01-14 21.08.38.excalidraw.md",
     "Coding/Drawing 2025-01-14 21.10.06.excalidraw.md",
-    "Coding/NodeJS/Iniciar servidor HTTP.md",
     "Excalidraw",
     "Diseño Web/Sin título.canvas",
     "Sin título.md",
@@ -209,10 +212,7 @@
     " Bases de Datos/Formas Normales.md",
     " Git/Inicializar y Subir un Repositorio a Git.md",
     "Bases de Datos/SQL/Funciones/COALESCE.md",
-    "Bases de Datos/SQL/Funciones/COUNT.md",
-    "Bases de Datos/SQL/DISTINCT.md",
     "Coding/C++",
-    " Python/GTK/7 GUIs",
-    "Coding/Python/GTK"
+    " Python/GTK/7 GUIs"
   ]
 }
