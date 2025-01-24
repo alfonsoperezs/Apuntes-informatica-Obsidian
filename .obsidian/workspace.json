@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Comandos/Git init.md",
+                "file": "Coding/NodeJS/Iniciar servidor HTTP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git init"
+              "title": "Iniciar servidor HTTP"
             }
           }
         ]
@@ -160,14 +160,39 @@
       "graph:Abrir vista gráfica": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false
+      "command-palette:Abrir paleta de comandos": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1aed001f26aae06b",
+  "active": "610a6715a86aeff6",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-01-14 21.08.38.excalidraw.md",
+    "Coding/Drawing 2025-01-14 21.10.06.excalidraw.md",
+    "Coding/NodeJS/Iniciar servidor HTTP.md",
+    "Excalidraw",
+    "Diseño Web/Sin título.canvas",
+    "Sin título.md",
+    "Diseño Web/CSS/Grid.md",
     "Git/Comandos/Git commit.md",
-    "images/gitinit3.png",
+    "SO/Linux/Comandos/Comando find.md",
+    "SO/Linux/Comandos/Comando chmod.md",
+    "SO/Windows/Formatear un USB Booteable.md",
+    "Diseño Web/CSS/Diseño Web Responsive.md",
+    "README.md",
+    "SO/Linux/Herramientas/Xosview.md",
+    "Coding/C++/Operadores.md",
+    "Coding/C++/Condicionales.md",
+    "Coding/Python/Entorno virtual.md",
+    "Coding/Python/Shebang.md",
+    "Coding/Python/Tipos y estructuras básicas.md",
+    "Coding/Python/GTK/Hola Mundo.md",
     "images/add_status.png",
+    "Diseño Web/CSS/Sin nombre",
+    "Git/Comandos/Git init.md",
+    "Diseño Web/CSS",
+    "Sin nombre",
+    "Diseño Web",
+    "images/gitinit3.png",
     "Sin título.canvas",
     "Git/Comandos/Git add.md",
     "images/VirtualBox_Kubuntu_15_09_2023_16_00_46.png",
@@ -178,39 +203,16 @@
     "images/Screenshot_20231005_111706.png",
     "images/Screenshot_20231005_110819.png",
     "images/Screenshot_20231003_163709.png",
-    "Coding/NodeJS/Iniciar servidor HTTP.md",
-    "Coding/C++/Operadores.md",
-    "Coding/C++/Condicionales.md",
-    "README.md",
     "SO/Linux/Personalización/Instalar fuentes de letras.md",
     "SO",
     "Coding",
     " Bases de Datos/Formas Normales.md",
     " Git/Inicializar y Subir un Repositorio a Git.md",
-    "SO/Linux/Herramientas/Xosview.md",
     "Bases de Datos/SQL/Funciones/COALESCE.md",
     "Bases de Datos/SQL/Funciones/COUNT.md",
     "Bases de Datos/SQL/DISTINCT.md",
-    "Bases de Datos/SQL/FROM.md",
-    "Bases de Datos/SQL/GROUP BY.md",
-    "Bases de Datos/SQL/HAVING.md",
-    "SO/Windows/Formatear un USB Booteable.md",
-    "Ejercicio 1.md",
-    "󰒒 Seguridad Informática/1. Categorías de ataques/1.1 Conceptos básicos.md",
-    "Bases de Datos/SQL/Predicados/IN.md",
-    "Bases de Datos/SQL/Predicados/BETWEEN.md",
-    "Coding/Python/Shebang.md",
-    "Coding/Python/Entorno virtual.md",
     "Coding/C++",
-    "SO/Linux/Comandos/Comando ps.md",
-    "SO/Linux/Comandos/Comando ls.md",
-    "SO/Linux/Comandos/Comando ldd.md",
     " Python/GTK/7 GUIs",
-    "Coding/Python/GTK",
-    "󰒒 Seguridad Informática/Prácticas",
-    "󰒒 Seguridad Informática/2. La trilogía",
-    "󰒒 Seguridad Informática/1. Categorías de ataques",
-    "󰒒 Seguridad Informática/Prácticas LSI",
-    "󰒒 Seguridad Informática"
+    "Coding/Python/GTK"
   ]
 }
