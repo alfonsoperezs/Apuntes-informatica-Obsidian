@@ -1,0 +1,1 @@
+Estructura de datos que guarda los valores que pueden cambiar durante la vida de un componente. Cada vez que el estado de un componente cambia, React vuelve a renderizar ese componente para reflejar los cambios.

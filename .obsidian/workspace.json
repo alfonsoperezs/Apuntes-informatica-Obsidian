@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fc2c1cea0301bdbb",
+        "id": "8d3225333060006e",
         "type": "tabs",
         "children": [
           {
-            "id": "9f85d41bbb48ae24",
+            "id": "9540d0ad5e8ef090",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diseño Web/React/JSX.md",
+                "file": "Diseño Web/React/Estados.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JSX"
+              "title": "Estados"
             }
           }
         ]
@@ -164,10 +164,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9f85d41bbb48ae24",
+  "active": "9540d0ad5e8ef090",
   "lastOpenFiles": [
+    "Diseño Web/React/Componentes.md",
+    "Diseño Web/React/Estados.md",
     "Diseño Web/React/HTML y Javascript vs React.md",
+    "Diseño Web/React/Estilos.md",
     "Diseño Web/React/JSX.md",
+    "Diseño Web/React/Booleanos.md",
+    "Diseño Web/React/Clases.md",
+    "Sin título 1.canvas",
+    "Sin título.canvas",
+    "Diseño Web/React/Vite.md",
     "Coding/NodeJS/Iniciar servidor HTTP.md",
     "Diseño Web/React",
     "Excalidraw/Drawing 2025-01-14 21.08.38.excalidraw.md",
@@ -191,13 +199,10 @@
     "Coding/Python/GTK/Hola Mundo.md",
     "images/add_status.png",
     "Diseño Web/CSS/Sin nombre",
-    "Git/Comandos/Git init.md",
     "Diseño Web/CSS",
     "Sin nombre",
     "Diseño Web",
     "images/gitinit3.png",
-    "Sin título.canvas",
-    "Git/Comandos/Git add.md",
     "images/VirtualBox_Kubuntu_15_09_2023_16_00_46.png",
     "images/VirtualBox_Kubuntu_18_09_2023_09_52_11 (2).png",
     "images/Screenshot_20231022_005221.png",
@@ -206,12 +211,8 @@
     "images/Screenshot_20231005_111706.png",
     "images/Screenshot_20231005_110819.png",
     "images/Screenshot_20231003_163709.png",
-    "SO/Linux/Personalización/Instalar fuentes de letras.md",
     "SO",
     "Coding",
-    " Bases de Datos/Formas Normales.md",
-    " Git/Inicializar y Subir un Repositorio a Git.md",
-    "Bases de Datos/SQL/Funciones/COALESCE.md",
     "Coding/C++",
     " Python/GTK/7 GUIs"
   ]

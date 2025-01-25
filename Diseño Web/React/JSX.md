@@ -18,6 +18,8 @@ Podemos expresarlo en JSX de esta manera.
 </React.Fragment>
 ```
 
+Los ficheros que utilicen JSX llevarán la extensión `.jsx`
+
 ### Expresiones
 Se pueden añadir expresiones poniendo la constante entre llaves.
 ```js
