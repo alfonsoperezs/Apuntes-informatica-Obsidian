@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8d3225333060006e",
+        "id": "80425cd6419702b4",
         "type": "tabs",
         "children": [
           {
-            "id": "9540d0ad5e8ef090",
+            "id": "58ec6412dea7b1a2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diseño Web/React/Estados.md",
+                "file": "Diseño Web/Javascript/Operador de propagación.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Estados"
+              "title": "Operador de propagación"
             }
           }
         ]
@@ -40,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Explorador de archivos"
@@ -164,39 +165,46 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9540d0ad5e8ef090",
+  "active": "58ec6412dea7b1a2",
   "lastOpenFiles": [
-    "Diseño Web/React/Sin título.md",
-    "Diseño Web/React/Estados.md",
+    "images/Pasted image 20250312105602.png",
+    "Diseño Web/Javascript/Destructuring.md",
+    "Diseño Web/Javascript/Operador de propagación.md",
+    "Diseño Web/Javascript/Funciones.md",
+    "images/Pasted image 20250312104302.png",
+    "Pasted image 20250312103830 1.png",
+    "images/Pasted image 20250312103830.png",
+    "Diseño Web/Javascript/Objetos.md",
+    "Diseño Web/Javascript/Tipos.md",
     "Diseño Web/React/Componentes.md",
-    "Diseño Web/React/HTML y Javascript vs React.md",
-    "Diseño Web/React/Estilos.md",
-    "Diseño Web/React/JSX.md",
-    "Diseño Web/React/Booleanos.md",
     "Diseño Web/React/Clases.md",
+    "Diseño Web/Javascript/Variables.md",
+    "Diseño Web/Javascript/Ejecución de ficheros.md",
+    "images/Pasted image 20250312102821.png",
+    "Diseño Web/React/Estados.md",
+    "README.md",
+    "Coding/NodeJS/Iniciar servidor HTTP.md",
+    "Diseño Web/Javascript",
+    "Coding/Elixir/Concurrencia.md",
+    "Git/Comandos/Git add.md",
+    "Coding/Elixir/Nodos.md",
+    "Coding/Elixir/Listas.md",
+    "Coding/Elixir/Pattern Matching.md",
+    "Coding/Elixir/Pipe.md",
+    "Coding/Elixir/Variables no usadas.md",
+    "Diseño Web/React/Vite.md",
+    "Coding/Python/Entorno virtual.md",
+    "Coding/Python/Tipos y estructuras básicas.md",
+    "Coding/Elixir/Notas.md",
+    "Diseño Web/React/JSX.md",
+    "Diseño Web/React/HTML y Javascript vs React.md",
+    "Coding/Elixir",
+    "Bases de Datos/PostgreSQL",
     "Sin título 1.canvas",
     "Sin título.canvas",
-    "Diseño Web/React/Vite.md",
-    "Coding/NodeJS/Iniciar servidor HTTP.md",
     "Diseño Web/React",
-    "Excalidraw/Drawing 2025-01-14 21.08.38.excalidraw.md",
-    "Coding/Drawing 2025-01-14 21.10.06.excalidraw.md",
     "Excalidraw",
     "Diseño Web/Sin título.canvas",
-    "Sin título.md",
-    "Diseño Web/CSS/Grid.md",
-    "Git/Comandos/Git commit.md",
-    "SO/Linux/Comandos/Comando find.md",
-    "SO/Linux/Comandos/Comando chmod.md",
-    "SO/Windows/Formatear un USB Booteable.md",
-    "Diseño Web/CSS/Diseño Web Responsive.md",
-    "README.md",
-    "SO/Linux/Herramientas/Xosview.md",
-    "Coding/C++/Operadores.md",
-    "Coding/C++/Condicionales.md",
-    "Coding/Python/Entorno virtual.md",
-    "Coding/Python/Shebang.md",
-    "Coding/Python/Tipos y estructuras básicas.md",
     "images/add_status.png",
     "Diseño Web/CSS/Sin nombre",
     "Diseño Web/CSS",
@@ -207,13 +215,6 @@
     "images/VirtualBox_Kubuntu_18_09_2023_09_52_11 (2).png",
     "images/Screenshot_20231022_005221.png",
     "images/Screenshot_20231022_002032.png",
-    "images/Screenshot_20231005_112041.png",
-    "images/Screenshot_20231005_111706.png",
-    "images/Screenshot_20231005_110819.png",
-    "images/Screenshot_20231003_163709.png",
-    "SO",
-    "Coding",
-    "Coding/C++",
-    " Python/GTK/7 GUIs"
+    "SO"
   ]
 }

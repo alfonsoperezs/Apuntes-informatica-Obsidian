@@ -10,7 +10,7 @@ Dentro de ese repositorio creamos nuestra carpeta `/proyects` donde creamos nues
 npm create vite@latest
 ```
 
-Una vez creamos el proyecto, instalamos las dependencias.
+Una vez creamos el proyecto, instalamos las dependencias. Estos comandos se deben de ejecutar dentro de la carpeta del proyecto.
 ```
 npm install
 ```
